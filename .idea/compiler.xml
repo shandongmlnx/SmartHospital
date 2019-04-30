@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mybatis" />
+        <module name="smart-uaer" />
+        <module name="smart-device-api" />
+        <module name="spring-mongodb" />
+        <module name="spring-rocketmq" />
+        <module name="spring-swagger" />
+        <module name="smart-zuul" />
+        <module name="spring-lcn" />
+        <module name="smart-uaer-api" />
+        <module name="spring-cache" />
+        <module name="mlnx-common" />
+        <module name="smart-device" />
+        <module name="spring-base" />
+        <module name="spring-rest" />
+        <module name="spring-zookeeper" />
+        <module name="agv-control-service" />
+        <module name="base-netty-server" />
+        <module name="smartcommon" />
+        <module name="smart-cloud" />
+        <module name="spring-dubbo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="agv-control-service" target="1.8" />
+      <module name="base-netty-server" target="1.8" />
+      <module name="mlnx-common" target="1.8" />
+      <module name="smart-cloud" target="1.8" />
+      <module name="smart-device" target="1.8" />
+      <module name="smart-device-api" target="1.8" />
+      <module name="smart-hospital" target="1.8" />
+      <module name="smart-service" target="1.8" />
+      <module name="smart-service-api" target="1.8" />
+      <module name="smart-uaer" target="1.8" />
+      <module name="smart-uaer-api" target="1.8" />
+      <module name="smart-zuul" target="1.8" />
+      <module name="smartcommon" target="1.8" />
+      <module name="spring-base" target="1.8" />
+      <module name="spring-cache" target="1.8" />
+      <module name="spring-dubbo" target="1.8" />
+      <module name="spring-lcn" target="1.8" />
+      <module name="spring-mongodb" target="1.8" />
+      <module name="spring-mybatis" target="1.8" />
+      <module name="spring-parent" target="1.8" />
+      <module name="spring-rest" target="1.8" />
+      <module name="spring-rocketmq" target="1.8" />
+      <module name="spring-swagger" target="1.8" />
+      <module name="spring-zookeeper" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

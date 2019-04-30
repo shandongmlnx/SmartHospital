@@ -1,0 +1,14 @@
+org\shan\spring\base\annotations\SysLog.class
+org\shan\spring\base\Test.class
+org\shan\spring\base\BaseController.class
+org\shan\spring\base\annotations\MlnxJsonFormat.class
+org\shan\spring\base\utils\ServletUtils.class
+org\shan\spring\base\annotations\NeedPermission.class
+org\shan\spring\base\annotations\NeedLogin.class
+org\shan\spring\base\aop\CommonLogAspect.class
+org\shan\spring\base\utils\converter\StringToDateConverter.class
+org\shan\spring\base\aop\BaseAspect.class
+org\shan\spring\base\annotations\NeedRoles.class
+org\shan\spring\base\config\WebConfigBeans.class
+org\shan\spring\base\entity\LogInfo.class
+org\shan\spring\base\BaseWebController.class

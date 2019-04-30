@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <classPathEntry
+        location="C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.21\mysql-connector-java-5.1.21.jar" />
+    <context id="context1" targetRuntime="MyBatis3"
+             defaultModelType="flat">
+
+        <!-- 分页插件 -->
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://rm-bp1745o74g3447d01o.mysql.rds.aliyuncs.com:3306/housekeeper_v2?useUnicode=true"
+                        userId="lifeport" password="Genext2017" />
+        <!--<javaModelGenerator targetPackage="com.joey.mybaties.test.pojo" targetProject="MAVEN"> -->
+        <javaModelGenerator targetPackage="org.shan.mybatis.mapper.pojo"
+                            targetProject="./src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!--对应的mapper.xml文件 -->
+        <sqlMapGenerator targetPackage="org.shan.mybatis.mapper"
+                         targetProject="./src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!-- 对应的Mapper接口类文件 -->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="org.shan.mybatis.mapper" targetProject="./src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+        <!-- 匹配所有表 -->
+        <table tableName="t_order"
+               enableCountByExample="true"
+               enableUpdateByExample="true"
+               enableDeleteByExample="false"
+               enableSelectByExample="true"
+               selectByExampleQueryId="true" >
+        </table>
+        <!-- <table tableName="T_drug"></table> -->
+    </context>
+</generatorConfiguration>

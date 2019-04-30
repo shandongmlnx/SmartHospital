@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mlnx.smart.user.mapper.UserInfoMapper">
+
+    <resultMap id="UserInfoVo" type="com.mlnx.smart.user.pojo.vo.UserInfoVo">
+        <result column="name" property="name"/>
+        <result column="position" property="position" typeHandler="org.shan.spring.mybatis.type_handler.CodeEnumTypeHandler"/>
+        <result column="sex" property="sex"/>
+
+        <association property="deptInfo" javaType="com.mlnx.smart.user.entity.DeptInfo">
+            <result column="dept_name" property="deptName"/>
+            <result column="postion" property="postion"/>
+        </association>
+    </resultMap>
+
+    <select id="selectUserInfoVoPage" resultMap="UserInfoVo">
+        select u.name, u.position, u.sex, d.dept_name, d.postion from t_user_info u, t_user_dept d
+        where u.dept_id = d.id
+    </select>
+</mapper>

@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e13db7f1-fc3d-4694-a7e2-612ff86accbd" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/smart-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service/smart-uaer/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-rocketmq/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-base/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-lcn/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/base-netty-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-redis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/mlnx-common/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-rest/target/" />
+    <ignored path="$PROJECT_DIR$/spring-parent/spring-dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service-api/smart-device-api/target/" />
+    <ignored path="$PROJECT_DIR$/smart-common/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service/smart-device/target/" />
+    <ignored path="$PROJECT_DIR$/smart-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/agv-control-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>=</find>
+      <find>getCaches</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>:</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/config/CacheConfig.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/feign/DeptClient.java" />
+        <option value="$PROJECT_DIR$/smart-common/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-device-api/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-device-api/src/main/java/com/mlnx/smart/device/pojo/vo/PadDeviceVo.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/DeviceApplication.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/mapper/DeviceMapper.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/service/IDeptService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/service/iml/DeptService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/spring-parent/mlnx-common/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/BeanUtils.java" />
+        <option value="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/Response.java" />
+        <option value="$PROJECT_DIR$/smart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-common/src/main/java/com/mlnx/smart/common/exception/RemoteCallException.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/mapper/PadDeviceMapper.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-device-api/src/main/java/com/mlnx/smart/device/enums/DeviceType.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-device-api/src/main/java/com/mlnx/smart/device/enums/DeviceTypeEnum.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/service/IPadDeviceService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/service/iml/PadDeviceService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/service/iml/TestUserApplication.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/service/iml/TestDeviceApplication.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-device-api/src/main/java/com/mlnx/smart/device/entity/Device.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-device-api/src/main/java/com/mlnx/smart/device/entity/PadDevice.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/service/iml/PadDeviceServiceTest.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/mapper/PadDeviceMapper.xml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/config/DeviceConfig.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/IDeptService.java" />
+        <option value="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/ResponseData.java" />
+        <option value="$PROJECT_DIR$/smart-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeign.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/feign/IDeptClient.java" />
+        <option value="$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignServer.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/controller/PadDeviceController.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/SmartDeviceApplication.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/DeptService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/feign/DeptClient.java" />
+        <option value="$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignClient.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserRegisterForm.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/DeptInfoForm.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/enums/PositionEnum.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/agv-control-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="smart-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-hospital" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="agv-control-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Rediscache&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java&#10;cachep&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheProperties.java&#10;Cachep&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheProperties.java&#10;RedisCacheConfiguration&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;CacheAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration&#10;CaffeineCacheConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.CaffeineCacheConfiguration&#10;CacheInterceptor &#9;PSI&#9;JAVA://org.springframework.cache.interceptor.CacheInterceptor&#10;cacheResolver&#9;PSI&#9;JAVA://org.springframework.cache.interceptor.CacheResolver&#10;ApplicationListener&#9;PSI&#9;JAVA://org.springframework.context.ApplicationListener&#10;SimpleCacheConfiguration&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java&#10;ConcurrentMapCacheManager&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCacheManager.java&#10;ConcurrentMapCache&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java&#10;Cache&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/cache/Cache.class&#10;CacheInterceptor&#9;FILE&#9;uml://JAVA/org.springframework.cache.interceptor.AbstractCacheResolver" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="C:\Users\Administrator\AppData\Roaming\npm\node_modules\eslint" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mlnx.smart.device.service.iml" />
+      <recent name="com.mlnx.smart.user.service.iml" />
+      <recent name="com.mlnx.smart.user.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="com.mlnx.smart.user.TestUserApplication" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mlnx.smart.annotation" />
+      <recent name="com.mlnx.smart.device.service.iml" />
+      <recent name="com.mlnx.smart.user.service.iml" />
+      <recent name="com.mlnx.smart.user.controller" />
+      <recent name="com.mlnx.smart.user.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service\smart-device\src\main\java\com\mlnx\smart\device" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service\smart-device\src\main\resources" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service-api\smart-device-api\src\main\java\com\mlnx\smart\device" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.UserRegisterForm">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegisterForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.pojo.form.UserRegisterForm" />
+      <module name="smart-uaer-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mlnx.smart.user.pojo.form.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DeptServiceTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-uaer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mlnx.smart.user.service.iml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mlnx.smart.user.service.iml" />
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.service.iml.DeptServiceTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PadDeviceServiceTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-device" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mlnx.smart.device.service.iml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mlnx.smart.device.service.iml" />
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.device.service.iml.PadDeviceServiceTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PadDeviceServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-device" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mlnx.smart.device.service.iml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mlnx.smart.device.service.iml" />
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.device.service.iml.PadDeviceServiceTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.listUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-uaer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mlnx.smart.user.service.iml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mlnx.smart.user.service.iml" />
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.service.iml.UserServiceTest" />
+      <option name="METHOD_NAME" value="listUserInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartDeviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="smart-device" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mlnx.smart.device.SmartDeviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartUerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="smart-uaer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mlnx.smart.user.SmartUerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRocketmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-rocketmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.shan.spring.rocketmq.SpringRocketmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.UserRegisterForm" />
+      <item itemvalue="JUnit.DeptServiceTest.add" />
+      <item itemvalue="JUnit.UserServiceTest.listUserInfo" />
+      <item itemvalue="JUnit.PadDeviceServiceTest.add" />
+      <item itemvalue="JUnit.PadDeviceServiceTest.list" />
+      <item itemvalue="Spring Boot.SpringRocketmqApplication" />
+      <item itemvalue="Spring Boot.SmartUerApplication" />
+      <item itemvalue="Spring Boot.SmartDeviceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserRegisterForm" />
+        <item itemvalue="JUnit.PadDeviceServiceTest.list" />
+        <item itemvalue="JUnit.PadDeviceServiceTest.add" />
+        <item itemvalue="JUnit.UserServiceTest.listUserInfo" />
+        <item itemvalue="JUnit.DeptServiceTest.add" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e13db7f1-fc3d-4694-a7e2-612ff86accbd" name="Default" comment="" />
+      <created>1553567320749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553567320749</updated>
+      <workItem from="1553567351748" duration="22000" />
+      <workItem from="1553567444677" duration="43275000" />
+      <workItem from="1553742912867" duration="35199000" />
+      <workItem from="1554174004037" duration="655000" />
+      <workItem from="1554707851294" duration="1640000" />
+      <workItem from="1555553910354" duration="601000" />
+      <workItem from="1555919913333" duration="669000" />
+      <workItem from="1556185194049" duration="2145000" />
+      <workItem from="1556242054873" duration="896000" />
+      <workItem from="1556605907403" duration="682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 51m 08s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 52m 45s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 58m 08s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 59m 47s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 14m 22s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 16m 55s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 18m 06s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 18m 45s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 19m 34s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 20m 37s.xml">
+      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85784000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <layout>
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.34455588" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5070225" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6348315" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NativeScript" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.3286517" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.56320226" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.47916666" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297414" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297414" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.3295129" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCacheManager.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCacheManager.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCacheManager.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheResolver.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheResolver.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java</url>
+          <line>250</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-druid/1、Druid基础配置.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-dubbo/src/main/java/org/shan/spring/dubbo/SpringDubboApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-lcn/src/main/java/org/shan/spring/lcn/config/LcnConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-lcn/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mybatis/src/main/java/org/shan/spring/mybatis/type_handler/CodeEnumTypeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="107" lean-forward="true" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/mapper/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.3/mybatis-plus-core-3.0.3-sources.jar!/com/baomidou/mybatisplus/core/enums/IEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/enums/BaseCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/enums/PositionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mybatis/src/main/java/org/shan/spring/mybatis/type_handler/CodeEnumUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mybatis/src/main/java/org/shan/spring/mybatis/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-redis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/config/CacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-rest/src/main/java/org/shan/spring/rest/RestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-rocketmq/src/main/java/org/shan/spring/rocketmq/SpringRocketmqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-rocketmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-rocketmq/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-rocketmq/事务消息.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-190">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-rocketmq/顺序消息.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/SpringZookeeperApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/barrier/ZkBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/config/ZookeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/leader/ZKLeaderLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/lock/ZookeeperLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/BaseDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/exception/ConnectFailedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1201#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#925#926#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1078#1079#0" expanded="false" />
+            <element signature="e#1115#1116#0" expanded="false" />
+            <element signature="e#1169#1170#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/ObjectValidUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#4115#4116#0" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4427#4428#0" expanded="false" />
+            <element signature="e#4468#4469#0" expanded="false" />
+            <element signature="e#4753#4754#0" expanded="false" />
+            <element signature="e#4796#4797#0" expanded="false" />
+            <element signature="e#5066#5067#0" expanded="false" />
+            <element signature="e#5106#5107#0" expanded="false" />
+            <element signature="e#5445#5446#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="false" />
+            <element signature="e#5624#5625#0" expanded="false" />
+            <element signature="e#5674#5675#0" expanded="false" />
+            <element signature="e#5731#5732#0" expanded="false" />
+            <element signature="e#5778#5779#0" expanded="false" />
+            <element signature="e#5967#5968#0" expanded="false" />
+            <element signature="e#6002#6003#0" expanded="false" />
+            <element signature="e#6525#6526#0" expanded="false" />
+            <element signature="e#6572#6573#0" expanded="false" />
+            <element signature="e#6632#6633#0" expanded="false" />
+            <element signature="e#6679#6680#0" expanded="false" />
+            <element signature="e#7234#7235#0" expanded="false" />
+            <element signature="e#7287#7288#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="e#7406#7407#0" expanded="false" />
+            <element signature="e#7689#7690#0" expanded="false" />
+            <element signature="e#7732#7733#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/MyLogInf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/MyLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#378#379#0" expanded="false" />
+            <element signature="e#432#433#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#795#796#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/ThreadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#957#958#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1116#1117#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1328#1329#0" expanded="false" />
+            <element signature="e#1565#1566#0" expanded="false" />
+            <element signature="e#1590#1591#0" expanded="false" />
+            <element signature="e#1850#1851#0" expanded="false" />
+            <element signature="e#1885#1886#0" expanded="false" />
+            <element signature="e#2083#2084#0" expanded="false" />
+            <element signature="e#2139#2140#0" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2638#2639#0" expanded="false" />
+            <element signature="e#3031#3032#0" expanded="false" />
+            <element signature="e#3083#3084#0" expanded="false" />
+            <element signature="e#3450#3451#0" expanded="false" />
+            <element signature="e#3483#3484#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/SecurityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4982#4983#0" expanded="false" />
+            <element signature="e#5044#5045#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/RandomUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#302#303#0" expanded="false" />
+            <element signature="e#350#351#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/java/org/shan/spring/mongodb/MongodbUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/DeptInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mongodb/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-device/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/TestDeviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-cloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agv-control-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>smart-cloud</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
