@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-client/agv-client.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-client/agv-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-control-service.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-control-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-parent/base-netty-server/base-netty-server.iml" filepath="$PROJECT_DIR$/spring-parent/base-netty-server/base-netty-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-parent/mlnx-common/mlnx-common.iml" filepath="$PROJECT_DIR$/spring-parent/mlnx-common/mlnx-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-cloud/smart-cloud.iml" filepath="$PROJECT_DIR$/smart-cloud/smart-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" filepath="$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" />

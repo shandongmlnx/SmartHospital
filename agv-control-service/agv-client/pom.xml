@@ -3,30 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>smart_hospital</artifactId>
+        <artifactId>agv-control-service</artifactId>
         <groupId>com.mlnx</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mlnx</groupId>
-    <artifactId>agv-control-service</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>agv-tp</module>
-        <module>agv-client</module>
-        <module>agv-web-service</module>
-    </modules>
+    <artifactId>agv-client</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.mlnx</groupId>
-            <artifactId>mlnx-common</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
+            <artifactId>agv-tp</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
