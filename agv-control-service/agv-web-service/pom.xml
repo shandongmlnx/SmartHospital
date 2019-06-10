@@ -17,6 +17,19 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.github.binarywang/weixin-java-common -->
+        <dependency>
+            <groupId>com.mlnx</groupId>
+            <artifactId>agv-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mlnx</groupId>
+            <artifactId>agv-client</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>

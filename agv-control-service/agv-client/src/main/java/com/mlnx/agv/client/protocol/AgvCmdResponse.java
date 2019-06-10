@@ -3,41 +3,41 @@ package com.mlnx.agv.client.protocol;
 /**
  * Created by amanda.shan on 2019/1/3.
  */
-public class AgvCmdResponse {
+public class  AgvCmdResponse {
 
-    private Integer messageId;
+    private String onlyTaskId;
 
-    private boolean sucess;
+    private boolean success;
 
-    public AgvCmdResponse(Integer messageId, boolean sucess) {
-        this.messageId = messageId;
-        this.sucess = sucess;
+    public AgvCmdResponse(String taskId, boolean sucess) {
+        this.onlyTaskId = taskId;
+        this.success = sucess;
     }
 
     public AgvCmdResponse() {
     }
 
-    public Integer getMessageId() {
-        return messageId;
+    public String getOnlyTaskId() {
+        return onlyTaskId;
     }
 
-    public void setMessageId(Integer messageId) {
-        this.messageId = messageId;
+    public void setOnlyTaskId(String onlyTaskId) {
+        this.onlyTaskId = onlyTaskId;
     }
 
     public boolean isSucess() {
-        return sucess;
+        return success;
     }
 
     public void setSucess(boolean sucess) {
-        this.sucess = sucess;
+        this.success = sucess;
     }
 
     @Override
     public String toString() {
         return "AgvCmdResponse{" +
-                "messageId=" + messageId +
-                ", sucess=" + sucess +
+                "onlyTaskId=" + onlyTaskId +
+                ", sucess=" + success +
                 '}';
     }
 }

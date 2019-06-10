@@ -14,9 +14,7 @@ public class AgvCmdChannelInitializer extends ChannelInitializer<SocketChannel> 
     protected void initChannel(SocketChannel ch) throws Exception {
 
         ChannelPipeline p = ch.pipeline();
-
-        p.addLast(new LengthFieldBasedFrameDecoder(
-                1024, 2, 2));
+        p.addLast(new AgvDecode());
         p.addLast(new AgvCmdHandler());
 
     }
