@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+logging:
+  file: temp/log.txt
+  level:
+    com.mlnx: debug

@@ -6,26 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-base" />
+        <module name="spring-lcn" />
+        <module name="agv-web-service" />
         <module name="smart-device-api" />
         <module name="agv-client" />
-        <module name="agv-web-service" />
-        <module name="spring-mybatis" />
         <module name="spring-rocketmq" />
+        <module name="spring-mybatis" />
+        <module name="smart-auth" />
         <module name="spring-swagger" />
         <module name="smart-zuul" />
-        <module name="spring-lcn" />
         <module name="agv-tp" />
         <module name="spring-mongodb" />
         <module name="smart-uaer-api" />
         <module name="spring-cache" />
-        <module name="demo" />
+        <module name="base-netty-server" />
         <module name="mlnx-common" />
         <module name="spring-rest" />
+        <module name="spring-base" />
+        <module name="smart-device" />
         <module name="spring-zookeeper" />
         <module name="smart-uaer" />
-        <module name="smart-device" />
-        <module name="base-netty-server" />
         <module name="smartcommon" />
         <module name="smart-cloud" />
         <module name="spring-dubbo" />
@@ -39,6 +39,7 @@
       <module name="base-netty-server" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="mlnx-common" target="1.8" />
+      <module name="smart-auth" target="1.8" />
       <module name="smart-cloud" target="1.8" />
       <module name="smart-device" target="1.8" />
       <module name="smart-device-api" target="1.8" />

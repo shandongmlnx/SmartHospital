@@ -6,9 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-control-service.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-control-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" />
       <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/base-netty-server/base-netty-server.iml" filepath="$PROJECT_DIR$/spring-parent/base-netty-server/base-netty-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/mlnx-common/mlnx-common.iml" filepath="$PROJECT_DIR$/spring-parent/mlnx-common/mlnx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-auth/smart-auth.iml" filepath="$PROJECT_DIR$/smart-auth/smart-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-cloud/smart-cloud.iml" filepath="$PROJECT_DIR$/smart-cloud/smart-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" filepath="$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-device-api/smart-device-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-device-api/smart-device-api.iml" />
@@ -19,17 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/smart-uaer-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/smart-uaer-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-zuul/smart-zuul.iml" filepath="$PROJECT_DIR$/smart-zuul/smart-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-common/smartcommon.iml" filepath="$PROJECT_DIR$/smart-common/smartcommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-base/spring-base.iml" filepath="$PROJECT_DIR$/spring-parent/spring-base/spring-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-redis/spring-cache.iml" filepath="$PROJECT_DIR$/spring-parent/spring-redis/spring-cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-dubbo/spring-dubbo.iml" filepath="$PROJECT_DIR$/spring-parent/spring-dubbo/spring-dubbo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-lcn/spring-lcn.iml" filepath="$PROJECT_DIR$/spring-parent/spring-lcn/spring-lcn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-mongodb/spring-mongodb.iml" filepath="$PROJECT_DIR$/spring-parent/spring-mongodb/spring-mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-parent/spring-mybatis/spring-mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-parent.iml" filepath="$PROJECT_DIR$/spring-parent/spring-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-rest/spring-rest.iml" filepath="$PROJECT_DIR$/spring-parent/spring-rest/spring-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-rocketmq/spring-rocketmq.iml" filepath="$PROJECT_DIR$/spring-parent/spring-rocketmq/spring-rocketmq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-swagger/spring-swagger.iml" filepath="$PROJECT_DIR$/spring-parent/spring-swagger/spring-swagger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-zookeeper/spring-zookeeper.iml" filepath="$PROJECT_DIR$/spring-parent/spring-zookeeper/spring-zookeeper.iml" />
     </modules>
   </component>
 </project>

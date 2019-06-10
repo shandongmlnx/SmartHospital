@@ -12,10 +12,10 @@
         <module>smart-zuul</module>
         <module>smart-service</module>
         <module>smart-service-api</module>
-        <module>spring-parent</module>
         <module>smart-common</module>
         <module>smart-cloud</module>
         <module>agv-control-service</module>
+        <module>smart-auth</module>
     </modules>
 
     <properties>
@@ -27,7 +27,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <encoding>UTF-8</encoding>
 
-        <shan.spring.version>1.0-SNAPSHOT</shan.spring.version>
+        <shan.spring.version>3.0</shan.spring.version>
 
     </properties>
 
@@ -82,6 +82,14 @@
         </dependencies>
     </dependencyManagement>
 
+    <repositories>
+        <repository>
+            <id>mlnx</id>
+            <url>http://192.168.1.35:8081/repository/maven-public/</url>
+        </repository>
+    </repositories>
+
+
     <build>
         <plugins>
             <plugin>
@@ -93,6 +101,12 @@
                     <target>1.8</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.3</version>
             </plugin>
         </plugins>
     </build>
