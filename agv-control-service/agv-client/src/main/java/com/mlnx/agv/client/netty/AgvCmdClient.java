@@ -86,7 +86,7 @@ public class AgvCmdClient {
         AgvCmdClient client = new AgvCmdClient("localhost",9099);
         List<Integer>  list =new ArrayList<>();
         int taskId=1;
-        list.add(2);
+//        list.add(2);
 //        list.add(3);
         AgvCmdResponse response=client.sendCmd(3,list,taskId);
         System.out.println(response.getOnlyTaskId()+"=="+response.isSucess());
