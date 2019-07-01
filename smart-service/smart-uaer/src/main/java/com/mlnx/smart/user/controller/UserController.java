@@ -1,8 +1,10 @@
 package com.mlnx.smart.user.controller;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.mlnx.common.annotations.NeedLogin;
 import com.mlnx.common.entity.Response;
 import com.mlnx.common.entity.ResponseData;
+import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
 import com.mlnx.smart.user.service.UserService;
@@ -58,6 +60,15 @@ public class UserController extends BaseController {
     @ApiOperation(value="获取所有用户信息", notes="")
     @GetMapping()
     public ResponseData list(@Valid UserFilterForm userFilterForm){
+
+        ResponseData result = result(userService.list(userFilterForm));
+        return result;
+    }
+
+    @NeedLogin(permissions = {"User/S"})
+    @ApiOperation(value="分页获取所有用户信息", notes="")
+    @GetMapping("page/")
+    public ResponseData<IPage<UserInfo>> listPage(@Valid UserFilterForm userFilterForm, @Valid PageForm pageForm){
 
         ResponseData result = result(userService.list(userFilterForm));
         return result;

@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mlnx.common.entity.ResponseData;
 import com.mlnx.common.form.PageForm;
-import com.mlnx.smart.common.exception.RemoteCallException;
+import com.mlnx.smart.common.response.RemoteCallException;
 import com.mlnx.smart.device.entity.PadDevice;
 import com.mlnx.smart.device.mapper.PadDeviceMapper;
 import com.mlnx.smart.device.pojo.vo.PadDeviceVo;

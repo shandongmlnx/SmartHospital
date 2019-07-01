@@ -1,5 +1,7 @@
 package com.mlnx.smart.user.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
 
@@ -15,5 +17,8 @@ public interface UserService {
     void modify(UserInfo userInfo);
 
     List<UserInfo> list(UserFilterForm userFilterForm);
+
+
+    IPage<UserInfo> listPage(UserFilterForm userFilterForm, PageForm pageForm);
 
 }
