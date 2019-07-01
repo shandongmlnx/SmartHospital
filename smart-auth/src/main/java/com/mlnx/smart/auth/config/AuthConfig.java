@@ -22,7 +22,7 @@ public class AuthConfig {
         return new MlnxWebResponseExceptionTranslator();
     }
 
-
+    // 解析接口请求异常的处理类 下面只处理登入异常的情况
     static class MlnxWebResponseExceptionTranslator extends DefaultWebResponseExceptionTranslator {
 
         @Override

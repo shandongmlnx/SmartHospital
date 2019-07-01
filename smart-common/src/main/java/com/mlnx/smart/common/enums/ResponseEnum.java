@@ -6,7 +6,8 @@ package com.mlnx.smart.common.enums;
 public enum ResponseEnum {
     SUCESS("0000", "成功"),
 
-    LOGIN_FAIL("1000", "登录失败")
+    LOGIN_FAIL("1000", "登录失败"),
+    USER_FAIL("2000", "用户失败"),
 
     ;
 

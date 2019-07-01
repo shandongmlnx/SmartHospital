@@ -20,7 +20,7 @@ public class UserServiceImlTest extends TestUserApplication {
     public void register() {
 
         UserInfo userInfo = new UserInfo();
-        userInfo.setUsername("mlnx");
+        userInfo.setUsername("zhang");
         userInfo.setName("张医生");
         userInfo.setMobile("15824503913");
         userInfo.setPassword("123456");

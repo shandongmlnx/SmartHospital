@@ -6,6 +6,7 @@ import com.mlnx.common.entity.Response;
 import com.mlnx.common.entity.ResponseData;
 import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.entity.UserInfo;
+import com.mlnx.smart.user.exception.UserException;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
 import com.mlnx.smart.user.service.UserService;
 
@@ -81,5 +82,13 @@ public class UserController extends BaseController {
 
         return result();
     }
+
+    @ApiOperation(value="测试异常", notes="")
+    @GetMapping("testException")
+    public Response testException(){
+
+        throw new UserException("测试用户异常");
+    }
+
 
 }
