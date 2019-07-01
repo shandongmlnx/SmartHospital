@@ -12,5 +12,12 @@
     <groupId>com.mlnx</groupId>
     <artifactId>smart-common</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.mlnx</groupId>
+            <artifactId>mlnx-common</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

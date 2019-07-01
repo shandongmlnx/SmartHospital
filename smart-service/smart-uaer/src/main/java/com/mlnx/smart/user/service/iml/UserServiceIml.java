@@ -1,7 +1,11 @@
 package com.mlnx.smart.user.service.iml;
 
-import com.mlnx.smart.user.entity.UserInfo;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.dao.UserInfoMapper;
+import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
 import com.mlnx.smart.user.service.UserService;
 
@@ -45,10 +49,27 @@ public class UserServiceIml implements UserService {
     public List<UserInfo> list(UserFilterForm userFilterForm) {
 
         Map<String, Object> columnMap = new HashMap<>();
-        if (!StringUtils.isEmpty(userFilterForm.getMobile())){
+        if (!StringUtils.isEmpty(userFilterForm.getMobile())) {
             columnMap.put("mobile", userFilterForm.getMobile());
         }
 
-        return userInfoMapper.selectByMap(columnMap);
+        return userInfoMapper.selectList(queryWrapper(userFilterForm));
+    }
+
+    @Override
+    public IPage<UserInfo> listPage(UserFilterForm userFilterForm, PageForm pageForm) {
+
+        IPage<UserInfo> userInfoIPage = userInfoMapper.selectPage(new Page<UserInfo>(pageForm.getCurrent(),
+                pageForm.getSize()), queryWrapper(userFilterForm));
+        return userInfoIPage;
+    }
+
+    private QueryWrapper queryWrapper(UserFilterForm userFilterForm){
+        QueryWrapper wrapper = new QueryWrapper();
+        if (!StringUtils.isEmpty(userFilterForm.getMobile())) {
+            wrapper.eq("mobile", userFilterForm.getMobile());
+        }
+
+        return wrapper;
     }
 }

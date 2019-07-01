@@ -1,6 +1,7 @@
 package com.mlnx.smart.auth.config;
 
 import com.mlnx.smart.auth.entity.UserInfo;
+import com.mlnx.smart.auth.exception.LoginException;
 import com.mlnx.smart.auth.service.UserService;
 
 import org.apache.commons.lang3.StringUtils;
@@ -36,56 +37,60 @@ public class SmartAppAuthorizeManager implements AppAuthorizeManager {
             // 根据获取用户信息
             UserInfo userInfo = userService.findByUsername(username);
 
-            if (userInfo != null) {
+            if (userInfo != null && encoder.matches(password, userInfo.getPassword())) {
 
-                if (encoder.matches(password, userInfo.getPassword())) {
-                    return new MlnxOauthUser(userInfo.getUsername(), userInfo.getPassword());
-                }else{
-                    return null;
-                }
+                return new MlnxOauthUser(userInfo.getUsername(), userInfo.getPassword());
+            }else{
+                throw new LoginException("用户名密码错误");
             }
         }
 
         // 手机号登入
-        String phone = requestParameters.get("phone");
-        if (!StringUtils.isEmpty(phone)) {
+        username = requestParameters.get("phone");
+        if (!StringUtils.isEmpty(username)) {
 
             // 手机验证码OK
             String code = requestParameters.get("code");
 
             // 根据获取用户信息
-            UserInfo userInfo = userService.findByPhone(phone);
+            UserInfo userInfo = userService.findByPhone(username);
 
             if (userInfo != null) {
                 return new MlnxOauthUser(userInfo.getUsername(), userInfo.getPassword());
+            }else{
+                throw new LoginException("手机号不存在");
             }
         }
 
         // 磁卡登入
-        String card = requestParameters.get("card");
-        if (!StringUtils.isEmpty(card)) {
+        username = requestParameters.get("card");
+        if (!StringUtils.isEmpty(username)) {
 
             // 根据获取用户信息
-            UserInfo userInfo = userService.findByCard(card);
+            UserInfo userInfo = userService.findByCard(username);
 
             if (userInfo != null) {
                 return new MlnxOauthUser(userInfo.getUsername(), userInfo.getPassword());
+            }else{
+                throw new LoginException("磁卡用户不存在");
             }
         }
 
         // ID登入
-        String id = requestParameters.get("id");
-        if (!StringUtils.isEmpty(id)) {
+        username = requestParameters.get("id");
+        if (!StringUtils.isEmpty(username)) {
 
             // 根据获取用户信息
-            UserInfo userInfo = userService.findById(id);
+            UserInfo userInfo = userService.findById(username);
 
             if (userInfo != null) {
                 return new MlnxOauthUser(userInfo.getUsername(), userInfo.getPassword());
+            }else{
+                throw new LoginException("用户ID不存在");
             }
         }
 
-        return null;
+        throw new LoginException("登录参数错误");
 
     }
 }

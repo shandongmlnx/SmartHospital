@@ -1,7 +1,7 @@
 package com.mlnx.smart.common.exception;
 
 /**
- * Created by amanda.shan on 2019/3/29.
+ * Created by amanda.shan on 2019/7/1.
  */
 public class RemoteCallException extends RuntimeException {
 

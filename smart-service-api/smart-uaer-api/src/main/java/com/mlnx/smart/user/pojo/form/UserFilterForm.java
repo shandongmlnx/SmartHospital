@@ -1,7 +1,5 @@
 package com.mlnx.smart.user.pojo.form;
 
-import com.mlnx.common.form.PageForm;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -11,7 +9,7 @@ import lombok.Data;
  */
 @Data
 @ApiModel("用户查询筛选类")
-public class UserFilterForm extends PageForm {
+public class UserFilterForm {
 
     @ApiModelProperty(value = "手机号")
     private String mobile;
