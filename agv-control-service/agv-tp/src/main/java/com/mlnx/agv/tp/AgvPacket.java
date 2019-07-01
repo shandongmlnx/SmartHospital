@@ -48,7 +48,7 @@ public class AgvPacket implements Codec {
 
     @Override
     public byte[] encode() {
-       synchronized (AgvPacket.class) {
+        synchronized (AgvPacket.class) {
 //            buffer.clear();
 //
 //           byte[] bs = body.encode();
@@ -56,7 +56,7 @@ public class AgvPacket implements Codec {
 //            buffer.flip();
 //            bs = new byte[buffer.remaining()];
 //            buffer.get(bs);
-        byte[] bs = {0x01};
+            byte[] bs = {0x01};
 
             return bs;
         }
@@ -66,7 +66,7 @@ public class AgvPacket implements Codec {
         synchronized (AgvPacket.class) {
             buffer.clear();
 
-           byte[] bs = body.encode(type,onlyTask,positionList);
+            byte[] bs = body.encode(type,onlyTask,positionList);
             buffer.put(bs);
             buffer.flip();
             bs = new byte[buffer.remaining()];

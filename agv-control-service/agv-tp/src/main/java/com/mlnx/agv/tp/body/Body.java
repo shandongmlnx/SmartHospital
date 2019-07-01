@@ -93,7 +93,7 @@ public class Body {
                 agvState.setCurrentPositon(a<<24|b<<16|
                         c<<8|d);//当前二维码码值
                 System.out.println(a+"=="+b+"=="+
-                      c+"=="+d);
+                        c+"=="+d);
                 agvState.setAgvNum(String.valueOf(bt4[18]& 0x000000ff<<8|bt4[19]& 0x000000ff));
                 int e=bt4[21]& 0x000000ff;
                 int f=bt4[22]& 0x000000ff;
