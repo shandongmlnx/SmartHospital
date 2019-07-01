@@ -1,7 +1,9 @@
 package com.mlnx.smart.user.service.iml;
 
+import com.mlnx.common.utils.MyLog;
 import com.mlnx.smart.user.TestUserApplication;
 import com.mlnx.smart.user.entity.UserInfo;
+import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.junit.Test;
@@ -11,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Created by amanda.shan on 2019/3/26.
  */
 public class UserServiceImlTest extends TestUserApplication {
+
+    private MyLog log = MyLog.getLog(getClass());
 
     @Autowired
     private UserService userService;
@@ -32,5 +36,12 @@ public class UserServiceImlTest extends TestUserApplication {
 
 
         userService.register(userInfo);
+    }
+
+    @Test
+    public void getUserInfoVo() {
+        UserInfoVo userInfoVo = userService.getUserInfoVoByName("zhang");
+
+        log.info(userInfoVo.toString());
     }
 }

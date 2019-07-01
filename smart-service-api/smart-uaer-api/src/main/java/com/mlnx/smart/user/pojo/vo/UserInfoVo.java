@@ -1,5 +1,10 @@
 package com.mlnx.smart.user.pojo.vo;
 
+import com.baomidou.mybatisplus.annotation.EnumValue;
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.mlnx.smart.user.enums.PositionEnum;
 
@@ -15,13 +20,33 @@ import lombok.Data;
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class UserInfoVo {
 
+    @TableId(type = IdType.AUTO)
+    @TableField(fill = FieldFill.INSERT)
+    private Integer id;
+
+    @ApiModelProperty(value = "用户名")
+    private String username;
+
+    @ApiModelProperty(value = "密码")
+    private String password;
+
+    @ApiModelProperty(value = "手机号")
+    private String mobile;
+
     @ApiModelProperty(value = "姓名")
     private String name;
 
+    @ApiModelProperty(value = "头像")
+    private String avatar;
+
     @ApiModelProperty(value = "职位")
+    @EnumValue
     private PositionEnum position;
 
-    @ApiModelProperty(value = "性别 0 男 1 女")
-    private Integer sex;
+    @ApiModelProperty(value = "工号")
+    private String card;
+
+    @ApiModelProperty(value = "性别")
+    private String sex;
 
 }

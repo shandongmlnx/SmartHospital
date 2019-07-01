@@ -12,6 +12,7 @@ import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.entity.UserRole;
 import com.mlnx.smart.user.exception.UserException;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
+import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.apache.commons.lang3.StringUtils;
@@ -19,10 +20,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 
 /**
@@ -73,23 +70,19 @@ public class UserServiceIml implements UserService {
     }
 
     @Override
-    public List<UserInfo> list(UserFilterForm userFilterForm) {
-
-        Map<String, Object> columnMap = new HashMap<>();
-        if (!StringUtils.isEmpty(userFilterForm.getMobile())) {
-            columnMap.put("mobile", userFilterForm.getMobile());
-        }
-
-        return userInfoMapper.selectList(queryWrapper(userFilterForm));
-    }
-
-    @Override
     public IPage<UserInfo> listPage(UserFilterForm userFilterForm, PageForm pageForm) {
 
         IPage<UserInfo> userInfoIPage = userInfoMapper.selectPage(new Page<UserInfo>(pageForm.getCurrent(),
                 pageForm.getSize()), queryWrapper(userFilterForm));
         return userInfoIPage;
     }
+
+    @Override
+    public UserInfoVo getUserInfoVoByName(String username) {
+
+        return userInfoMapper.selectUserInfoVoByName(username);
+    }
+
 
     private QueryWrapper queryWrapper(UserFilterForm userFilterForm){
         QueryWrapper wrapper = new QueryWrapper();

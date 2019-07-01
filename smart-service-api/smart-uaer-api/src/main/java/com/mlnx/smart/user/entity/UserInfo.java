@@ -49,6 +49,9 @@ public class UserInfo extends BaseEntity {
     @ApiModelProperty(value = "工号")
     private String card;
 
+    @ApiModelProperty(value = "性别")
+    private String sex;
+
     @ApiModelProperty(value = "指纹1")
     private byte[] finger1;
 

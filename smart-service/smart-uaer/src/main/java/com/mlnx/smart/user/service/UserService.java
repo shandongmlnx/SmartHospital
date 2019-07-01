@@ -4,8 +4,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
-
-import java.util.List;
+import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 
 /**
  * Created by amanda.shan on 2019/3/26.
@@ -16,9 +15,9 @@ public interface UserService {
 
     void modify(UserInfo userInfo);
 
-    List<UserInfo> list(UserFilterForm userFilterForm);
-
 
     IPage<UserInfo> listPage(UserFilterForm userFilterForm, PageForm pageForm);
+
+    UserInfoVo getUserInfoVoByName(String username);
 
 }

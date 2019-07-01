@@ -6,8 +6,8 @@ import com.mlnx.common.entity.Response;
 import com.mlnx.common.entity.ResponseData;
 import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.entity.UserInfo;
-import com.mlnx.smart.user.exception.UserException;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
+import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.shan.spring.base.BaseController;
@@ -58,20 +58,11 @@ public class UserController extends BaseController {
     }
 
     @NeedLogin(permissions = {"User/S"})
-    @ApiOperation(value="获取所有用户信息", notes="")
-    @GetMapping()
-    public ResponseData list(@Valid UserFilterForm userFilterForm){
-
-        ResponseData result = result(userService.list(userFilterForm));
-        return result;
-    }
-
-    @NeedLogin(permissions = {"User/S"})
     @ApiOperation(value="分页获取所有用户信息", notes="")
-    @GetMapping("page/")
+    @GetMapping("")
     public ResponseData<IPage<UserInfo>> listPage(@Valid UserFilterForm userFilterForm, @Valid PageForm pageForm){
 
-        ResponseData result = result(userService.list(userFilterForm));
+        ResponseData result = result(userService.listPage(userFilterForm, pageForm));
         return result;
     }
 
@@ -83,11 +74,29 @@ public class UserController extends BaseController {
         return result();
     }
 
-    @ApiOperation(value="测试异常", notes="")
-    @GetMapping("testException")
-    public Response testException(){
+    @NeedLogin
+    @ApiOperation(value="根据用户名获取用户", notes="")
+    @GetMapping("username/{username}/")
+    public Response findByName(@PathVariable("username") String username){
 
-        throw new UserException("测试用户异常");
+        return result(userService.getUserInfoVoByName(username));
+    }
+
+    @NeedLogin
+    @ApiOperation(value="根据手机号获取用户", notes="")
+    @GetMapping("mobile/{mobile}/")
+    public Response findByMobile(@PathVariable("mobile") String mobile){
+
+        return result();
+    }
+
+    @NeedLogin
+    @ApiOperation(value="获取自身信息", notes="")
+    @GetMapping("self/")
+    public Response self(){
+
+        UserInfoVo userInfoVo = getAttribute("user");
+        return result(userInfoVo);
     }
 
 
