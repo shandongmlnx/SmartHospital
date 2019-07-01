@@ -119,11 +119,11 @@ public class TurnByte {
 //        int day1=3;
 //        String a=String.valueOf(year1)+month1+day1;
 //        System.out.println(a);
-      int i=20;
+        int i=20;
 
 //        0001fbdc
-       int a=  (byte)0x00 & 0x000000ff;
-       int b=(byte)0x01 & 0x000000ff;
+        int a=  (byte)0x00 & 0x000000ff;
+        int b=(byte)0x01 & 0x000000ff;
         int r=  (byte)0xfb & 0x000000ff;
         int d=  (byte)0xdc & 0x000000ff;
         int c=0<<24|1<<16|251<<8|220;

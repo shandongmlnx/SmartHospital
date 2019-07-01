@@ -21,7 +21,7 @@ public class DateUtil {
         int minute = c.get(Calendar.MINUTE);
         int second = c.get(Calendar.SECOND);
 //        System.out.println(year + "/" + month + "/" + date + " " +hour + ":" +minute + ":" + second);
-    return hour;
+        return hour;
     }
     public static void main(String[] args) {
         SimpleDateFormat sdf=new SimpleDateFormat("yyyy/MM/dd HH:mm");
