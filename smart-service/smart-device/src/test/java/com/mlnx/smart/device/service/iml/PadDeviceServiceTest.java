@@ -1,12 +1,9 @@
 package com.mlnx.smart.device.service.iml;
 
 import com.alibaba.fastjson.JSON;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.device.TestDeviceApplication;
 import com.mlnx.smart.device.entity.PadDevice;
 import com.mlnx.smart.device.enums.DeviceTypeEnum;
-import com.mlnx.smart.device.pojo.vo.PadDeviceVo;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,9 +33,8 @@ public class PadDeviceServiceTest extends TestDeviceApplication{
 
     @Test
     public void list() throws Exception {
-        IPage<PadDeviceVo> list = padDeviceService.list(new PageForm(1, 3));
 
-        System.out.println(JSON.toJSON(list));
+        System.out.println(JSON.toJSON(null));
     }
 
     @Test

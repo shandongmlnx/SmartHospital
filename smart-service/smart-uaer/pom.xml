@@ -19,14 +19,15 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.shan.spring</groupId>
-            <artifactId>spring-cache</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>org.shan.spring</groupId>
             <artifactId>spring-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.shan.lib</groupId>
+            <artifactId>security-resource</artifactId>
         </dependency>
 
         <dependency>

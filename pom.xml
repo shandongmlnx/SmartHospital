@@ -16,6 +16,7 @@
         <module>smart-cloud</module>
         <module>agv-control-service</module>
         <module>smart-auth</module>
+        <module>smart-authh</module>
     </modules>
 
     <properties>
@@ -27,16 +28,17 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <encoding>UTF-8</encoding>
 
-        <shan.spring.version>3.0</shan.spring.version>
+        <shan.spring.version>3.1</shan.spring.version>
+        <shan.security.version>1.1</shan.security.version>
 
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.spring.platform</groupId>
-                <artifactId>platform-bom</artifactId>
-                <version>Cairo-RELEASE</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>2.0.9.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -79,6 +81,31 @@
                 <version>${shan.spring.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.shan.spring</groupId>
+                <artifactId>spring-mongodb</artifactId>
+                <version>${shan.spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.shan.lib</groupId>
+                <artifactId>security-app</artifactId>
+                <version>${shan.security.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.shan.lib</groupId>
+                <artifactId>security-resource</artifactId>
+                <version>${shan.security.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.shan.lib</groupId>
+                <artifactId>security-role</artifactId>
+                <version>${shan.security.version}</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -86,6 +113,9 @@
         <repository>
             <id>mlnx</id>
             <url>http://192.168.1.35:8081/repository/maven-public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
 

@@ -6,8 +6,9 @@
     <file url="file://$PROJECT_DIR$/agv-control-service/agv-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/agv-control-service/agv-tp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/agv-control-service/agv-web-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart-authh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart-authh/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/smart-cloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-service" charset="UTF-8" />
@@ -17,19 +18,6 @@
     <file url="file://$PROJECT_DIR$/smart-service/smart-device" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-service/smart-uaer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-zuul" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/base-netty-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/mlnx-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-base" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-dubbo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-lcn" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-mongodb" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-mybatis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-redis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-rest" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-rocketmq" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-swagger" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-parent/spring-zookeeper" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

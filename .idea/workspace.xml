@@ -5,535 +5,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13db7f1-fc3d-4694-a7e2-612ff86accbd" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mlnx_mlnx_common_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_base_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_cache_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_mybatis_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_swagger_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/smart-auth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/AuthApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-auth/target/smart-auth-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_lib_security_app_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_lib_security_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_lib_security_resource_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_lib_security_role_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/SmartAppAuthorizeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/service/iml/UserServiceIml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-auth/src/test/java/com/mlnx/smart/auth/TestAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-auth/src/test/java/com/mlnx/smart/auth/service/iml/UserServiceImlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserFilterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/config/UserAuthorizeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/dao/iml/UserDaoImlTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_actuator_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_caucho_hessian_4_0_51.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codingapi_transaction_dubbo_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codingapi_tx_client_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codingapi_tx_plugins_db_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_1991wangliang_lorne_core_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_1991wangliang_lorne_exception_1_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_14_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_spring_boot_starter_rocketmq_1_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mlnx_mlnx_common_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mlnx_mlnx_common_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_23_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_23_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_23_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_23_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_23_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_23_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_23_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_16_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_39.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_39.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_39.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_base_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_base_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_cache_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_mybatis_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_mybatis_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_swagger_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_shan_spring_spring_swagger_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_12_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_13_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agv-control-service/agv-client/agv-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/agv-control-service/agv-client/agv-client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agv-control-service/agv-control-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/agv-control-service/agv-control-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-cloud/target/classes/com/mlnx/smart/annotation/MlnxFeignClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-cloud/target/classes/com/mlnx/smart/annotation/MlnxFeignServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-common/target/classes/com/mlnx/smart/common/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-common/target/classes/com/mlnx/smart/common/exception/RemoteCallException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/smart-auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/smart-auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-cloud/smart-cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-cloud/smart-cloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-service-api/smart-device-api/smart-device-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/smart-device-api/smart-device-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-device-api/target/classes/com/mlnx/smart/device/entity/Device.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-device-api/target/classes/com/mlnx/smart/device/entity/PadDevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-device-api/target/classes/com/mlnx/smart/device/enums/DeviceTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-device-api/target/classes/com/mlnx/smart/device/pojo/vo/PadDeviceVo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-service-api/smart-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/smart-service-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/smart-uaer-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/smart-uaer-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/classes/com/mlnx/smart/user/entity/DeptInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/classes/com/mlnx/smart/user/entity/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/classes/com/mlnx/smart/user/enums/PositionEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/classes/com/mlnx/smart/user/feign/IDeptClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/classes/com/mlnx/smart/user/pojo/form/DeptInfoForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/classes/com/mlnx/smart/user/pojo/form/UserRegisterForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/target/classes/com/mlnx/smart/user/pojo/vo/UserInfoVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/DeptInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/feign/IDeptClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserRegisterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserRegisterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/vo/UserInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/vo/UserInfoVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/SmartDeviceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/config/DeviceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/controller/PadDeviceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/mapper/PadDeviceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/mapper/PadDeviceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/service/IPadDeviceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/service/iml/PadDeviceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/test-classes/com/mlnx/smart/device/TestDeviceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/test-classes/com/mlnx/smart/device/service/iml/PadDeviceServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/service/iml/PadDeviceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/service/iml/PadDeviceServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-service/smart-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/smart-uaer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/smart-uaer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/SmartUerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/controller/DeptController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/feign/DeptClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/mapper/DeptMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/mapper/UserInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/mapper/UserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/service/IDeptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/service/iml/DeptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/classes/com/mlnx/smart/user/service/iml/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/test-classes/com/mlnx/smart/user/TestUserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/test-classes/com/mlnx/smart/user/controller/UserControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/test-classes/com/mlnx/smart/user/service/iml/DeptServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/target/test-classes/com/mlnx/smart/user/service/iml/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/base-netty-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/Acknowledge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/Heartbeats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/NativeSupport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/NettyCommonProtocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/NettyEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/NettyEventType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/ServiceThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/common/exception/ConnectFailedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/server/DefaultCommonSrvAcceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/server/NettySrvAcceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/server/SrvAcceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/Acknowledge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/Heartbeats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/NativeSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/NettyCommonProtocol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/NettyEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/NettyEventType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/ServiceThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/common/exception/ConnectFailedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/server/DefaultCommonSrvAcceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/server/NettySrvAcceptor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/server/NettySrvAcceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/base-netty-server/target/classes/org/shan/netty/server/SrvAcceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/JdbcOrmApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/BaseDaoSupport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/EntityClassUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/EntityOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/QueryRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/QueryRuleSqlBulider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/java/org/shan/spring/jdbc/framework/SqlBulider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/jdbc-orm/src/test/java/org/shan/spring/JdbcOrmApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/mlnx-common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/TestDelayTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/annotations/NeedLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/annotations/NeedPermission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/annotations/NeedRoles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/annotations/SysLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/constant/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/BaseExceptionMsg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/DelayMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/Log.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/ResponseData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/enums/BaseCodeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/enums/PublicStatusEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/enums/RpcSignTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/form/PageForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/task/DelayedTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/task/DelayedTaskConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/task/IProcess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/BeanConvertUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/BeanUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/DateTimeConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/MyLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/MyLogFace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/MyLogInf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/ObjectValidUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/PhoneFormatCheckUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/RandomUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/SecurityUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/ThreadUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/ids/MongodbId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/serialize/JsonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/serialize/ProtostuffCodecUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/TestDelayTask$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/TestDelayTask$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/TestDelayTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/annotations/NeedLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/annotations/NeedPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/annotations/NeedRoles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/annotations/SysLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/constant/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/entity/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/entity/BaseExceptionMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/entity/DelayMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/entity/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/entity/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/entity/ResponseData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/enums/BaseCodeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/enums/PublicStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/enums/RpcSignTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/form/PageForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/task/DelayedTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/task/DelayedTaskConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/task/IProcess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/BeanConvertUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/BeanUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/DateTimeConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/MyLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/MyLogFace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/MyLogInf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/ObjectValidUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/PhoneFormatCheckUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/RandomUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/SecurityUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/ThreadUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/ThreadUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/ids/MongodbId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/serialize/JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/classes/com/mlnx/common/utils/serialize/ProtostuffCodecUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/mlnx-common/target/mlnx-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/MVC单元测试.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/spring-base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/BaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/BaseWebController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/annotations/MlnxJsonFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/annotations/NeedLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/annotations/NeedPermission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/annotations/NeedRoles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/annotations/SysLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/aop/BaseAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/aop/CommonLogAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/config/WebConfigBeans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/entity/LogInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/utils/ServletUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/src/main/java/org/shan/spring/base/utils/converter/StringToDateConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/BaseWebController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/annotations/MlnxJsonFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/annotations/NeedLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/annotations/NeedPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/annotations/NeedRoles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/annotations/SysLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/aop/BaseAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/aop/CommonLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/config/WebConfigBeans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/entity/LogInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/utils/ServletUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/classes/org/shan/spring/base/utils/converter/StringToDateConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-base/target/spring-base-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/1、Druid基础配置.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/2、网页监控界面StatViewServlet配置.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/3、配置一个web监控的filter.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/4、 filters配置.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/src/main/java/org/shan/spring/druid/SpringDruidApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/src/main/resources/schema-department.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-druid/src/test/java/org/shan/spring/SpringDruidApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/spring-dubbo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/src/main/java/org/shan/spring/dubbo/SpringDubboApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/target/classes/org/shan/spring/dubbo/SpringDubboApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-dubbo/target/spring-dubbo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-lcn/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-lcn/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-lcn/spring-lcn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-lcn/src/main/java/org/shan/spring/lcn/SpringLcnApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-lcn/src/main/java/org/shan/spring/lcn/config/LcnConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-lcn/target/classes/org/shan/spring/lcn/SpringLcnApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-lcn/target/classes/org/shan/spring/lcn/config/LcnConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/spring-mongodb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/java/org/shan/spring/mongodb/DuplicateKeyHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/java/org/shan/spring/mongodb/MongodbApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/java/org/shan/spring/mongodb/MongodbUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/AggregationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/MongodbTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/XingnengTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/basic/TestBson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/basic/TestClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/bean/MongoBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/bean/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/src/test/java/org/shan/bean/SimpleBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/classes/org/shan/spring/mongodb/DuplicateKeyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/classes/org/shan/spring/mongodb/MongodbApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/classes/org/shan/spring/mongodb/MongodbUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/spring-mongodb-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/AggregationTest$TagCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/AggregationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/MongodbTests$TestJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/MongodbTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/XingnengTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/XingnengTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/basic/TestBson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/basic/TestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/bean/MongoBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/bean/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/target/test-classes/org/shan/bean/SimpleBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mongodb/批量测试.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/spring-mybatis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/src/main/java/org/shan/spring/mybatis/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/src/main/java/org/shan/spring/mybatis/type_handler/CodeEnumTypeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/src/main/java/org/shan/spring/mybatis/type_handler/CodeEnumUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/classes/org/shan/spring/mybatis/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/classes/org/shan/spring/mybatis/type_handler/CodeEnumTypeHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/classes/org/shan/spring/mybatis/type_handler/CodeEnumUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-mybatis/target/spring-mybatis-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-parent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/spring-cache.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/spring-redis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/RedisLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/RedisUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/config/CacheConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/config/CacheRedisProper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/main/java/org/shan/spring/redis/config/RedisCacheConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/test/java/org/shan/LockTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/test/java/org/shan/RedisPersonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/test/java/org/shan/SpringCacheApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/src/test/java/org/shan/bean/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/RedisLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/RedisLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/config/CacheConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/config/CacheRedisProper$Duration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/config/CacheRedisProper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/config/RedisCacheConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/classes/org/shan/spring/redis/config/RedisCacheConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/spring-cache-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/test-classes/org/shan/LockTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/test-classes/org/shan/LockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/test-classes/org/shan/RedisPersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/test-classes/org/shan/SpringCacheApplicationTests$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/test-classes/org/shan/SpringCacheApplicationTests$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/test-classes/org/shan/SpringCacheApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-redis/target/test-classes/org/shan/bean/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/spring-rest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/src/main/java/org/shan/spring/rest/RestConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/src/main/java/org/shan/spring/rest/RestUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/target/classes/org/shan/spring/rest/RestConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/target/classes/org/shan/spring/rest/RestUtils$Head.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/target/classes/org/shan/spring/rest/RestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rest/target/spring-rest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/main/java/org/shan/spring/rocketmq/SpringRocketmqApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/test/java/org/shan/SpringRocketmqApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/test/java/org/shan/ordermessage/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/test/java/org/shan/ordermessage/OrderDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/test/java/org/shan/ordermessage/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/test/java/org/shan/quickstart/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/test/java/org/shan/quickstart/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/src/test/java/org/shan/simple/TestProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/事务消息.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-rocketmq/顺序消息.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/spring-swagger.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/src/main/java/org/shan/spring/swagger/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/src/main/java/org/shan/spring/swagger/SwaggerProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/classes/org/shan/spring/swagger/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/classes/org/shan/spring/swagger/SwaggerProperties$Authorization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/classes/org/shan/spring/swagger/SwaggerProperties$AuthorizationScope.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/classes/org/shan/spring/swagger/SwaggerProperties$Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/classes/org/shan/spring/swagger/SwaggerProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-swagger/target/spring-swagger-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/spring-zookeeper.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/SpringZookeeperApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/barrier/ZkBarrier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/config/ZookeeperConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/leader/ZKLeaderLatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/java/org.shan.spring.zookeeper/lock/ZookeeperLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/src/test/java/org/shan/zookeeper/ZkTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/classes/org/shan/spring/zookeeper/SpringZookeeperApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/classes/org/shan/spring/zookeeper/barrier/ZkBarrier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/classes/org/shan/spring/zookeeper/config/ZookeeperConfig$ZookeeperProper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/classes/org/shan/spring/zookeeper/config/ZookeeperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/classes/org/shan/spring/zookeeper/leader/ZKLeaderLatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/classes/org/shan/spring/zookeeper/lock/ZookeeperLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/spring-zookeeper-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/test-classes/org/shan/zookeeper/ZkTest$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/test-classes/org/shan/zookeeper/ZkTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/test-classes/org/shan/zookeeper/ZkTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/test-classes/org/shan/zookeeper/ZkTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-parent/spring-zookeeper/target/test-classes/org/shan/zookeeper/ZkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/feign/DeptClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/mapper/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/IDeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/service/iml/DeptServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/service/iml/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/service/iml/UserServiceImlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/log.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -565,6 +185,8 @@
     <ignored path="$PROJECT_DIR$/agv-control-service/agv-client/target/" />
     <ignored path="$PROJECT_DIR$/agv-control-service/agv-web-service/target/" />
     <ignored path="$PROJECT_DIR$/smart-auth/target/" />
+    <ignored path="$PROJECT_DIR$/agv-control-service/smart-authh/target/" />
+    <ignored path="$PROJECT_DIR$/smart-authh/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -587,20 +209,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smart-service-api/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="204">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -620,68 +242,78 @@
     <findStrings>
       <find>=</find>
       <find>getCaches</find>
+      <find>performBuild</find>
+      <find>verifier</find>
+      <find>find</find>
+      <find>DataSourceInitializerInvoker</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
+      <replace>select</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/config/DeviceConfig.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/IDeptService.java" />
-        <option value="$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/entity/ResponseData.java" />
-        <option value="$PROJECT_DIR$/smart-cloud/pom.xml" />
-        <option value="$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeign.java" />
-        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/pom.xml" />
-        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/feign/IDeptClient.java" />
-        <option value="$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignServer.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/controller/PadDeviceController.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/SmartDeviceApplication.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/DeptService.java" />
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/feign/DeptClient.java" />
-        <option value="$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignClient.java" />
-        <option value="$PROJECT_DIR$/smart-service/smart-device/pom.xml" />
-        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserRegisterForm.java" />
-        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/DeptInfoForm.java" />
-        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/enums/PositionEnum.java" />
-        <option value="$PROJECT_DIR$/smart-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/MongoUserService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/mapper/UserDao.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/IDeptService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/DeptService.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/DeptServiceIml.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserService.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/dao/Iml/UserDaoMogo.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/DeptInfo.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/iml/UserDaoIml.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserSearchForm.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/mapper/PadDeviceMapper.xml" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/test/java/com/mlnx/smart/auth/dao/Iml/UserDaoMogoTest.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/service/iml/PadDeviceServiceTest.java" />
         <option value="$PROJECT_DIR$/agv-control-service/pom.xml" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-tp/pom.xml" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-web-service/pom.xml" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/pom.xml" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/EcgUploadClient.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/EcgUploadHandler.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/AgvCmdHandler.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/UploadClientChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/uploadClientChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/AgvCmdChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/AgvCmdClient.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/utils/SyncFuture.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/protocol/UploadEcgProtocol.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/protocol/UploadEcgResponse.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/protocol/AgvCmdResponse.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/netty/AgvCmdHandler.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/netty/AgvCmdClient.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-web-service/src/main/java/com/mlnx/agv/server/AgvServer.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-web-service/src/main/java/com/mlnx/agv/server/netty/AgvCmdServer.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/agv-web-service/src/main/java/com/mlnx/agv/server/controller/AgvController.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/README.md" />
-        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" />
-        <option value="$PROJECT_DIR$/smart-auth/build.sh" />
-        <option value="$PROJECT_DIR$/smart-auth/Dockerfile" />
+        <option value="$PROJECT_DIR$/smart-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-authh/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/smart-authh/pom.xml" />
         <option value="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/smart-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-parent/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/pojo/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/vo/UserInfoVo.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/service/iml/UserServiceImlTest.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/mapper/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/test/java/com/mlnx/smart/auth/service/iml/UserServiceImlTest.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/service/UserService.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/service/iml/UserServiceIml.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/SmartAppAuthorizeManager.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/config/MyAuthorizeConfigProvider.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserFilterForm.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/dao/iml/UserDaoImlTest.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/config/UserAuthorizeConfig.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java" />
       </list>
     </option>
   </component>
@@ -697,12 +329,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="smart_hospital" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="smart-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="smart_hospital" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="smart-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="smart-authh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="smart-authh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -729,11 +370,6 @@
               <item name="smart-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-hospital" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="smart-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -754,26 +390,23 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="C:\Users\Administrator\AppData\Roaming\npm\node_modules\eslint" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/smart-authh/src/main/resources" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.mlnx.smart.device.service.iml" />
-      <recent name="com.mlnx.smart.user.service.iml" />
-      <recent name="com.mlnx.smart.user.controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mlnx.agv.client.exception" />
-      <recent name="com.mlnx.agv.client.utils" />
-      <recent name="com.mlnx.smart.annotation" />
+      <recent name="com.mlnx.smart.user.dao.iml" />
+      <recent name="com.mlnx.smart.auth.service.iml" />
+      <recent name="com.mlnx.smart.auth.dao.Iml" />
       <recent name="com.mlnx.smart.device.service.iml" />
       <recent name="com.mlnx.smart.user.service.iml" />
     </key>
@@ -781,11 +414,25 @@
       <recent name="" />
       <recent name="com.mlnx.smart.user.TestUserApplication" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mlnx.smart.user.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-authh\src\main\resources" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service\smart-uaer\src\main\resources" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-auth\src\main\resources" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-auth\src\main\java\com\mlnx\smart\auth" />
       <recent name="E:\workspace\idea\cloud\smart-hospital\agv-control-service\agv-client\src\main\java\com\mlnx\agv\client" />
-      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service\smart-device\src\main\java\com\mlnx\smart\device" />
-      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service\smart-device\src\main\resources" />
-      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service-api\smart-device-api\src\main\java\com\mlnx\smart\device" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mlnx.smart.auth.mapper" />
+      <recent name="com.mlnx.smart.auth" />
+      <recent name="com.mlnx.smart.user.dao.mapper" />
+      <recent name="com.mlnx.smart.user.config" />
+      <recent name="com.mlnx.smart.auth.dao.Iml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\cloud\smart-hospital" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -800,20 +447,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApplication">
+  <component name="RunManager" selected="Spring Boot.SmartUerApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegisterForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.pojo.form.UserRegisterForm" />
-      <module name="smart-uaer-api" />
+    <configuration name="SmartAppAuthorizeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.auth.config.SmartAppAuthorizeManager" />
+      <module name="smart-auth" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mlnx.smart.user.pojo.form.*" />
+          <option name="PATTERN" value="com.mlnx.smart.auth.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -864,41 +511,24 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="PadDeviceServiceTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smart-device" />
+    <configuration name="UserServiceImlTest.findByPhone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mlnx.smart.device.service.iml.*" />
+          <option name="PATTERN" value="com.mlnx.smart.auth.service.iml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mlnx.smart.device.service.iml" />
-      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.device.service.iml.PadDeviceServiceTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="PACKAGE_NAME" value="com.mlnx.smart.auth.service.iml" />
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.auth.service.iml.UserServiceImlTest" />
+      <option name="METHOD_NAME" value="findByPhone" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PadDeviceServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smart-device" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mlnx.smart.device.service.iml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mlnx.smart.device.service.iml" />
-      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.device.service.iml.PadDeviceServiceTest" />
-      <option name="METHOD_NAME" value="list" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.listUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImlTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="smart-uaer" />
       <extension name="coverage">
         <pattern>
@@ -907,8 +537,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.mlnx.smart.user.service.iml" />
-      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.service.iml.UserServiceTest" />
-      <option name="METHOD_NAME" value="listUserInfo" />
+      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.service.iml.UserServiceImlTest" />
+      <option name="METHOD_NAME" value="register" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -960,7 +590,20 @@
       <module name="smart-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mlnx.smart.auth.*" />
+          <option name="PATTERN" value="com.mlnx.smart.auth.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mlnx.smart.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="smart-authh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mlnx.smart.auth.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1025,23 +668,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.UserRegisterForm" />
-      <item itemvalue="JUnit.UserServiceTest.listUserInfo" />
-      <item itemvalue="JUnit.PadDeviceServiceTest.add" />
-      <item itemvalue="JUnit.PadDeviceServiceTest.list" />
       <item itemvalue="Spring Boot.SpringRocketmqApplication" />
       <item itemvalue="Spring Boot.SmartUerApplication" />
       <item itemvalue="Spring Boot.SmartDeviceApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.AuthApplication (1)" />
+      <item itemvalue="JUnit.UserServiceImlTest.register" />
+      <item itemvalue="JUnit.UserServiceImlTest.findByPhone" />
+      <item itemvalue="Application.SmartAppAuthorizeManager" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AuthApplication" />
-        <item itemvalue="Application.UserRegisterForm" />
-        <item itemvalue="JUnit.PadDeviceServiceTest.list" />
-        <item itemvalue="JUnit.PadDeviceServiceTest.add" />
-        <item itemvalue="JUnit.UserServiceTest.listUserInfo" />
+        <item itemvalue="Application.SmartAppAuthorizeManager" />
+        <item itemvalue="JUnit.UserServiceImlTest.findByPhone" />
+        <item itemvalue="JUnit.UserServiceImlTest.register" />
+        <item itemvalue="Spring Boot.AuthApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1075,6 +718,15 @@
       <workItem from="1560130998735" duration="2638000" />
       <workItem from="1560143693157" duration="492000" />
       <workItem from="1560144200455" duration="4000" />
+      <workItem from="1560144289498" duration="1295000" />
+      <workItem from="1560237603347" duration="791000" />
+      <workItem from="1560243026918" duration="7579000" />
+      <workItem from="1560923412954" duration="19143000" />
+      <workItem from="1561022861065" duration="10782000" />
+      <workItem from="1561079750189" duration="15644000" />
+      <workItem from="1561337951000" duration="29528000" />
+      <workItem from="1561774555946" duration="225000" />
+      <workItem from="1561774798972" duration="15497000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1556606793046</created>
@@ -1090,48 +742,64 @@
       <option name="project" value="LOCAL" />
       <updated>1558927839396</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交">
+      <created>1560144345879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560144345879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 51m 08s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserServiceImlTest_findByCard - 2019.06.21 at 13h 20m 05s.xml">
+      <configuration name="UserServiceImlTest.findByCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 52m 45s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserDaoImlTest_selectByPhone - 2019.06.24 at 14h 04m 03s.xml">
+      <configuration name="UserDaoImlTest.selectByPhone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 58m 08s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserDaoImlTest_selectByPhone - 2019.06.24 at 14h 06m 31s.xml">
+      <configuration name="UserDaoImlTest.selectByPhone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 13h 59m 47s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserDaoImlTest_selectByPhone - 2019.06.28 at 17h 26m 37s.xml">
+      <configuration name="UserDaoImlTest.selectByPhone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 14m 22s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserServiceImlTest_register - 2019.06.29 at 14h 09m 52s.xml">
+      <configuration name="UserServiceImlTest.register" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 16m 55s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserServiceImlTest_register - 2019.06.29 at 14h 11m 00s.xml">
+      <configuration name="UserServiceImlTest.register" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 18m 06s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserServiceImlTest_register - 2019.06.29 at 14h 11m 50s.xml">
+      <configuration name="UserServiceImlTest.register" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 18m 45s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserServiceImlTest_register - 2019.06.29 at 14h 12m 40s.xml">
+      <configuration name="UserServiceImlTest.register" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 19m 34s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserServiceImlTest_register - 2019.06.29 at 14h 13m 19s.xml">
+      <configuration name="UserServiceImlTest.register" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PadDeviceServiceTest_list - 2019.03.29 at 14h 20m 37s.xml">
-      <configuration name="PadDeviceServiceTest.list" configurationId="JUnit" />
+    <history-entry file="UserServiceImlTest_register - 2019.06.29 at 14h 16m 11s.xml">
+      <configuration name="UserServiceImlTest.register" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105408000" />
+    <option name="totallyTimeSpent" value="205892000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <layout>
-      <window_info id="Project" order="0" visible="true" weight="0.27507162" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.2872493" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1142,20 +810,21 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5069638" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6348315" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5264624" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928367" weight="0.53203344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286908" />
       <window_info anchor="bottom" id="NativeScript" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32729805" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32729805" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007163" side_tool="true" weight="0.6337047" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.44289693" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.3286517" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.56320226" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5626741" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32729805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1166,8 +835,8 @@
       <window_info anchor="right" id="Database" order="7" weight="0.3297414" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297414" />
-      <window_info active="true" anchor="right" id="Maven" order="11" visible="true" weight="0.41547278" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3295129" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.45630372" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1175,6 +844,58 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -1233,35 +954,143 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheResolver.java</url>
           <line>54</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheResolver.java</url>
           <line>46</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java</url>
           <line>220</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java</url>
           <line>313</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java</url>
           <line>250</line>
           <properties />
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfiguration.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.4.RELEASE/spring-security-config-5.0.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/WebSecurity.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java</url>
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/store/JwtAccessTokenConverter.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/store/JwtAccessTokenConverter.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.6.RELEASE/spring-data-mongodb-2.0.6.RELEASE-sources.jar!/org/springframework/data/mongodb/core/MongoTemplate.java</url>
+          <line>2185</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.6.RELEASE/spring-data-mongodb-2.0.6.RELEASE-sources.jar!/org/springframework/data/mongodb/core/MongoTemplate.java</url>
+          <line>2397</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.1.RELEASE/spring-boot-actuator-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthIndicatorAutoConfiguration.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.1.RELEASE/spring-boot-actuator-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthIndicatorAutoConfiguration.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.1.RELEASE/spring-boot-actuator-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthIndicatorAutoConfiguration.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.1.RELEASE/spring-boot-actuator-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthIndicatorAutoConfiguration.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/intercept/AbstractSecurityInterceptor.java</url>
+          <line>198</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/intercept/AbstractSecurityInterceptor.java</url>
+          <line>232</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/vote/AffirmativeBased.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/expression/AbstractVariableEvaluationContextPostProcessor.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/ast/BeanReference.class</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1271,275 +1100,400 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/ThreadUtil.java" />
-    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/SecurityUtil.java" />
-    <entry file="file://$PROJECT_DIR$/spring-parent/mlnx-common/src/main/java/com/mlnx/common/utils/RandomUtils.java" />
-    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/java/org/shan/spring/mongodb/MongodbUtils.java" />
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/DeptInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mongodb/README.md" />
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-device/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-parent/spring-mongodb/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/TestDeviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-cloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.1.1.RELEASE/spring-cloud-starter-openfeign-2.1.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2678">
-          <caret line="1909" column="6" selection-start-line="1909" selection-start-column="6" selection-end-line="1909" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-device-api/src/main/java/com/mlnx/smart/device/entity/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/feign/IDeptClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.23.Final/netty-all-4.1.23.Final.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-cloud/src/main/java/com/mlnx/smart/annotation/MlnxFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/server/NettySrvAcceptor.java" />
-    <entry file="file://$PROJECT_DIR$/spring-parent/base-netty-server/src/main/java/org/shan/netty/server/DefaultCommonSrvAcceptor.java" />
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/agv-control-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-web-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-tp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/exception/WaitTimeoutException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/protocol/UploadEcgProtocol.java" />
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/protocol/UploadEcgRequest.java" />
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/utils/SyncFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/protocol/AgvCmdResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/netty/AgvCmdClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/netty/AgvCmdChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-client/src/main/java/com/mlnx/agv/client/netty/AgvCmdHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-web-service/src/main/java/com/mlnx/agv/server/AgvServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-web-service/src/main/java/com/mlnx/agv/server/netty/AgvCmdServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/agv-web-service/src/main/java/com/mlnx/agv/server/controller/AgvController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agv-control-service/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/spring-parent/spring-base/pom.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="306">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-auth/build.sh">
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/test/java/com/mlnx/smart/auth/service/iml/UserServiceImlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="87">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-auth/Dockerfile">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.0.12.RELEASE/spring-security-crypto-5.0.12.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCrypt.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="229">
+          <caret line="249" column="25" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.0.12.RELEASE/spring-security-crypto-5.0.12.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/service/iml/UserServiceIml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.0.12.RELEASE/spring-security-crypto-5.0.12.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.0.12.RELEASE/spring-security-crypto-5.0.12.RELEASE-sources.jar!/org/springframework/security/crypto/password/PasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/SmartAppAuthorizeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/config/MyAuthorizeConfigProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.3/mybatis-plus-core-3.0.3-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="178" column="82" lean-forward="true" selection-start-line="178" selection-start-column="53" selection-end-line="178" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserFilterForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/dao/iml/UserDaoImlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smart-auth/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE.jar!/org/springframework/security/access/intercept/AbstractSecurityInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/intercept/AbstractSecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/expression/WebExpressionConfigAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1589#1590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/expression/AbstractVariableEvaluationContextPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/ast/VariableReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/standard/SpelExpression.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/expression/ExpressionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/expression/WebExpressionVoter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/ast/SpelNodeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/ExpressionState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+          <folding>
+            <element signature="e#7542#7543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/support/StandardEvaluationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#4295#4296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/expression/DelegatingEvaluationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#2552#2553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/ast/CompoundExpression.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/ast/MethodReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.0.13.RELEASE/spring-expression-5.0.13.RELEASE.jar!/org/springframework/expression/spel/ast/BeanReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.12.RELEASE/spring-security-config-5.0.12.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="201" column="106" lean-forward="true" selection-start-line="201" selection-start-column="106" selection-end-line="201" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-parent/pom.xml" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/shan/spring/spring-base/1.1/spring-base-1.1.pom" />
-    <entry file="file://$MAVEN_REPOSITORY$/com/mlnx/mlnx-common/3.0/mlnx-common-3.0.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/authentication/AnonymousAuthenticationToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        <state relative-caret-position="102">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/vote/UnanimousBased.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="-119">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/vote/AbstractAccessDecisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#3052#3053#0" expanded="true" />
+            <element signature="e#3085#3086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/vote/ConsensusBased.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.12.RELEASE/spring-security-config-5.0.12.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractInterceptUrlConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/AccessDecisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.12.RELEASE/spring-security-core-5.0.12.RELEASE-sources.jar!/org/springframework/security/access/vote/AffirmativeBased.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/shan/lib/security-core/1.1/security-core-1.1.jar!/org/shan/security/core/role/iml/RbacServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/AccessDeniedHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="215" column="27" lean-forward="true" selection-start-line="215" selection-start-column="27" selection-end-line="215" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/config/UserAuthorizeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1593,7 +1547,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-rest</last-edited>
+          <last-edited>smart-cloud</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

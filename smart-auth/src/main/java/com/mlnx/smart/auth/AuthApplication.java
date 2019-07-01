@@ -1,5 +1,6 @@
 package com.mlnx.smart.auth;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by amanda.shan on 2019/6/3.
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"org.shan", "com.mlnx"})
+@MapperScan("com.mlnx.smart.auth.mapper")
 @RestController
 public class AuthApplication {
 

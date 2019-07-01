@@ -1,7 +1,6 @@
 package com.mlnx.smart.user.pojo.vo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.mlnx.smart.user.entity.DeptInfo;
 import com.mlnx.smart.user.enums.PositionEnum;
 
 import io.swagger.annotations.ApiModel;
@@ -24,8 +23,5 @@ public class UserInfoVo {
 
     @ApiModelProperty(value = "性别 0 男 1 女")
     private Integer sex;
-
-    @ApiModelProperty(value = "区域")
-    private DeptInfo deptInfo;
 
 }
