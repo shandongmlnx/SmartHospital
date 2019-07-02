@@ -15,7 +15,6 @@
     <modules>
         <module>smart-user-api</module>
         <module>smart-device-api</module>
-        <module>smart-area-api</module>
         <module>smart-area-manage-api</module>
     </modules>
 

@@ -15,8 +15,6 @@
     <modules>
         <module>smart-user</module>
         <module>smart-device</module>
-        <module>smart-area</module>
-        <module>../smart-service-manage</module>
         <module>smart-area-manage</module>
     </modules>
 

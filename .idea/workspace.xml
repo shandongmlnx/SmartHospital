@@ -4,33 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13db7f1-fc3d-4694-a7e2-612ff86accbd" name="Default" comment="提交">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-service-api/smart-area-manage-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-service/smart-area-manage/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-service/smart-area-manage/smart-area-manage.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/SmartAreaApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/config/UserAuthorizeConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-service/smart-area-manage/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-service/smart-user/smart-uaer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="e13db7f1-fc3d-4694-a7e2-612ff86accbd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service-api/pom.xml" afterPath="$PROJECT_DIR$/smart-service-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service-api/smart-device-api/pom.xml" afterPath="$PROJECT_DIR$/smart-service-api/smart-device-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service-api/smart-user-api/pom.xml" afterPath="$PROJECT_DIR$/smart-service-api/smart-user-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" afterPath="$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service/pom.xml" afterPath="$PROJECT_DIR$/smart-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service/smart-device/pom.xml" afterPath="$PROJECT_DIR$/smart-service/smart-device/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" afterPath="$PROJECT_DIR$/smart-service/smart-device/smart-device.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service/smart-service.iml" afterPath="$PROJECT_DIR$/smart-service/smart-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-service/smart-user/pom.xml" afterPath="$PROJECT_DIR$/smart-service/smart-user/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/smart-common/smart-common.iml" afterPath="$PROJECT_DIR$/smart-service-api/smart-area-manage-api/smart-area-manage-api.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,28 +94,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="336">
+              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smart-service-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+            <state relative-caret-position="336">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -147,8 +114,8 @@
       <file leaf-file-name="UserAuthorizeConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/config/UserAuthorizeConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -164,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmartAreaApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SmartAreaApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/SmartAreaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,6 +178,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -300,10 +277,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service/smart-area/src/main/java/com/mlnx/smart/area/config/UserAuthorizeConfig.java" />
         <option value="$PROJECT_DIR$/smart-service/smart-user/pom.xml" />
-        <option value="$PROJECT_DIR$/smart-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service/smart-area/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service/smart-area/src/main/java/com/mlnx/smart/area/SmartAreaApplication.java" />
-        <option value="$PROJECT_DIR$/smart-service/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service-manage/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service-api/smart-area-manage-api/src/main/java/user/enums/PositionEnum.java" />
         <option value="$PROJECT_DIR$/smart-service-api/smart-device-api/pom.xml" />
@@ -311,6 +286,8 @@
         <option value="$PROJECT_DIR$/smart-service/smart-device/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service/smart-area-manage/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/config/UserAuthorizeConfig.java" />
+        <option value="$PROJECT_DIR$/smart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service-api/pom.xml" />
       </list>
     </option>
   </component>
@@ -376,6 +353,11 @@
             <path>
               <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="agv-control-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
@@ -448,21 +430,6 @@
             <path>
               <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
-              <item name="smart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="smart-area-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
-              <item name="smart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="smart-device" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
               <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -515,6 +482,51 @@
               <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
               <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-device-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-device-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-device-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-device-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-device-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
               <item name="smart-user-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -540,6 +552,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartHospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartHospital" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1021,7 +1054,7 @@
       <workItem from="1561963893278" duration="7132000" />
       <workItem from="1562028539366" duration="249000" />
       <workItem from="1562029295364" duration="1981000" />
-      <workItem from="1562031315768" duration="1965000" />
+      <workItem from="1562031315768" duration="5232000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1556606793046</created>
@@ -1058,7 +1091,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561966339344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提交">
+      <created>1562033586513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562033586513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1094,7 +1134,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237957000" />
+    <option name="totallyTimeSpent" value="241224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1392,7 +1432,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-area/src/main/java/device/service/iml/PadDeviceService.java" />
     <entry file="file://$PROJECT_DIR$/smart-service/smart-area/src/main/java/device/controller/PadDeviceController.java" />
     <entry file="file://$PROJECT_DIR$/smart-service/smart-area/src/main/java/device/config/DeviceConfig.java" />
     <entry file="file://$PROJECT_DIR$/smart-service/smart-area/src/main/java/device/mapper/PadDeviceMapper.xml" />
@@ -1529,22 +1568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smart-service/smart-area/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1673,29 +1696,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/pom.xml">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/SmartAreaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/config/UserAuthorizeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/src/main/java/com/mlnx/smart/area/SmartAreaApplication.java">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-device/src/main/java/com/mlnx/smart/device/service/iml/PadDeviceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-147">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-area-manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
