@@ -55,6 +55,11 @@
                 <artifactId>spring-cache</artifactId>
                 <version>${shan.spring.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.shan.lib</groupId>
+                <artifactId>security-core</artifactId>
+                <version>${shan.security.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.shan.spring</groupId>

@@ -9,19 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mlnx</groupId>
-    <artifactId>smart-user-api</artifactId>
+    <artifactId>smart-area-manage-api</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.mlnx</groupId>
+            <artifactId>smart-user-api</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
-
 </project>

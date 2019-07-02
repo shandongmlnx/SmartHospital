@@ -9,24 +9,34 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mlnx</groupId>
-    <artifactId>smart-device</artifactId>
-
+    <artifactId>smart-area-manage</artifactId>
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+
         <dependency>
             <groupId>org.shan.spring</groupId>
             <artifactId>spring-mybatis</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.shan.lib</groupId>
+            <artifactId>security-resource</artifactId>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.shan.lib</groupId>-->
+            <!--<artifactId>security-core</artifactId>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-openfeign-core</artifactId>
+            <version>RELEASE</version>
+        </dependency>
         <dependency>
             <groupId>com.mlnx</groupId>
-            <artifactId>smart-device-api</artifactId>
+            <artifactId>smart-area-manage-api</artifactId>
             <version>${parent.version}</version>
         </dependency>
 
@@ -37,22 +47,5 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-
-        <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                </includes>
-            </resource>
-        </resources>
-    </build>
 
 </project>

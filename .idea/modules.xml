@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-control-service.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-control-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-tp/agv-tp.iml" />
       <module fileurl="file://$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" filepath="$PROJECT_DIR$/agv-control-service/agv-web-service/agv-web-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-service/smart-area-manage/smart-area-manage.iml" filepath="$PROJECT_DIR$/smart-service/smart-area-manage/smart-area-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-area-manage-api/smart-area-manage-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-area-manage-api/smart-area-manage-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-auth/smart-auth.iml" filepath="$PROJECT_DIR$/smart-auth/smart-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-cloud/smart-cloud.iml" filepath="$PROJECT_DIR$/smart-cloud/smart-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-common/smart-common.iml" filepath="$PROJECT_DIR$/smart-common/smart-common.iml" />
@@ -14,9 +16,11 @@
       <module fileurl="file://$PROJECT_DIR$/smart-hospital.iml" filepath="$PROJECT_DIR$/smart-hospital.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service/smart-service.iml" filepath="$PROJECT_DIR$/smart-service/smart-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-service-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smart-service/smart-user/smart-user.iml" filepath="$PROJECT_DIR$/smart-service/smart-user/smart-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-service/smart-user/smart-uaer.iml" filepath="$PROJECT_DIR$/smart-service/smart-user/smart-uaer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-zuul/smart-zuul.iml" filepath="$PROJECT_DIR$/smart-zuul/smart-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-common/smartcommon.iml" filepath="$PROJECT_DIR$/smart-common/smartcommon.iml" />
     </modules>
   </component>
 </project>

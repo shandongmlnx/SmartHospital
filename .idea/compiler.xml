@@ -6,29 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-base" />
-        <module name="smart-device-api" />
         <module name="agv-client" />
+        <module name="agv-tp" />
         <module name="agv-web-service" />
-        <module name="spring-mybatis" />
-        <module name="spring-rocketmq" />
-        <module name="spring-swagger" />
-        <module name="smart-common" />
+        <module name="base-netty-server" />
+        <module name="mlnx-common" />
+        <module name="smart-area-manage" />
+        <module name="smart-area-manage-api" />
         <module name="smart-auth" />
+        <module name="smart-cloud" />
+        <module name="smart-common" />
+        <module name="smart-device" />
+        <module name="smart-device-api" />
+        <module name="smart-uaer" />
         <module name="smart-user-api" />
+        <module name="smart-zuul" />
+        <module name="smartcommon" />
+        <module name="spring-base" />
+        <module name="spring-cache" />
+        <module name="spring-dubbo" />
         <module name="spring-lcn" />
         <module name="spring-mongodb" />
-        <module name="spring-cache" />
-        <module name="smart-zuul" />
-        <module name="mlnx-common" />
+        <module name="spring-mybatis" />
         <module name="spring-rest" />
+        <module name="spring-rocketmq" />
+        <module name="spring-swagger" />
         <module name="spring-zookeeper" />
-        <module name="smart-device" />
-        <module name="smart-user" />
-        <module name="base-netty-server" />
-        <module name="agv-tp" />
-        <module name="smart-cloud" />
-        <module name="spring-dubbo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
@@ -39,6 +42,10 @@
       <module name="base-netty-server" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="mlnx-common" target="1.8" />
+      <module name="smart-area" target="1.8" />
+      <module name="smart-area-api" target="1.8" />
+      <module name="smart-area-manage" target="1.8" />
+      <module name="smart-area-manage-api" target="1.8" />
       <module name="smart-auth" target="1.8" />
       <module name="smart-authh" target="1.8" />
       <module name="smart-cloud" target="1.8" />
@@ -48,9 +55,12 @@
       <module name="smart-hospital" target="1.8" />
       <module name="smart-service" target="1.8" />
       <module name="smart-service-api" target="1.8" />
-      <module name="smart-user" target="1.8" />
+      <module name="smart-service-manage" target="1.8" />
+      <module name="smart-uaer" target="1.8" />
+      <module name="smart-uaer-api" target="1.8" />
       <module name="smart-user-api" target="1.8" />
       <module name="smart-zuul" target="1.8" />
+      <module name="smartcommon" target="1.8" />
       <module name="spring-base" target="1.8" />
       <module name="spring-cache" target="1.8" />
       <module name="spring-dubbo" target="1.8" />
@@ -63,10 +73,5 @@
       <module name="spring-swagger" target="1.8" />
       <module name="spring-zookeeper" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
-    </option>
   </component>
 </project>

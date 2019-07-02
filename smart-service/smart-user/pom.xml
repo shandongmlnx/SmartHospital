@@ -32,7 +32,7 @@
 
         <dependency>
             <groupId>com.mlnx</groupId>
-            <artifactId>smart-uaer-api</artifactId>
+            <artifactId>smart-user-api</artifactId>
             <version>${parent.version}</version>
         </dependency>
     </dependencies>

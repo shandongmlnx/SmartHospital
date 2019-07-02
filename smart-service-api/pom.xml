@@ -13,8 +13,10 @@
     <artifactId>smart-service-api</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>smart-uaer-api</module>
+        <module>smart-user-api</module>
         <module>smart-device-api</module>
+        <module>smart-area-api</module>
+        <module>smart-area-manage-api</module>
     </modules>
 
     <dependencies>
