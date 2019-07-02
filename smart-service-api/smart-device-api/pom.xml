@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>com.mlnx</groupId>
-            <artifactId>smart-uaer-api</artifactId>
+            <artifactId>smart-user-api</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

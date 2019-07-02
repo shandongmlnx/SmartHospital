@@ -8,11 +8,14 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/smart-service-api/smart-area-api/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service/smart-area/pom.xml" />
         <option value="$PROJECT_DIR$/spring-parent/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="jdk1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
