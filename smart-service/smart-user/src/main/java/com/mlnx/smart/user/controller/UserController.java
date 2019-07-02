@@ -7,7 +7,6 @@ import com.mlnx.common.entity.ResponseData;
 import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
-import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.shan.spring.base.BaseController;
@@ -87,8 +86,8 @@ public class UserController extends BaseController {
     @GetMapping("self/")
     public Response self(){
 
-        UserInfoVo userInfoVo = getAttribute("user");
-        return result(userInfoVo);
+        UserInfo userInfo = getAttribute("user");
+        return result(userInfo);
     }
 
 

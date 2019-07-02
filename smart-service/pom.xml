@@ -13,7 +13,7 @@
     <artifactId>smart-service</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>smart-uaer</module>
+        <module>smart-user</module>
         <module>smart-device</module>
     </modules>
 

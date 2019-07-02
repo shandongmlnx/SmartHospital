@@ -4,7 +4,73 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13db7f1-fc3d-4694-a7e2-612ff86accbd" name="Default" comment="提交" />
+    <list default="true" id="e13db7f1-fc3d-4694-a7e2-612ff86accbd" name="Default" comment="提交">
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/AgvPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/Codec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/AgvCmdEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/AgvReInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/AgvState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/AtomicEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/Body$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/Body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/body/ErrorType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/exception/InvalidPacketException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/util/DecodeCRC16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/util/ReadUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/util/TurnByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-tp/target/classes/com/mlnx/agv/tp/util/TurnTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-web-service/target/classes/com/mlnx/agv/server/AgvServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-web-service/target/classes/com/mlnx/agv/server/controller/AgvController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-web-service/target/classes/com/mlnx/agv/server/netty/AgvCmdServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-web-service/target/classes/com/mlnx/agv/server/netty/NettyConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agv-control-service/agv-web-service/target/classes/com/mlnx/agv/server/netty/NettyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/smart-auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/smart-auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/AuthConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/classes/META-INF/smart-auth.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/AuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/AuthApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/config/AuthConfig$MlnxWebResponseExceptionTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/config/AuthConfig$MlnxWebResponseExceptionTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/config/AuthConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/config/AuthConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/classes/com/mlnx/smart/auth/config/MlnxWebResponseExceptionTranslator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/test-classes/META-INF/smart-auth.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/test-classes/com/mlnx/smart/auth/TestAuthApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-auth/target/test-classes/com/mlnx/smart/auth/service/iml/UserServiceImlTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service-api/smart-user-api/target/classes/META-INF/smart-uaer-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/SmartDeviceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/config/DeviceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/controller/PadDeviceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/mapper/PadDeviceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/service/IPadDeviceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/classes/com/mlnx/smart/device/service/iml/PadDeviceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/test-classes/com/mlnx/smart/device/TestDeviceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-device/target/test-classes/com/mlnx/smart/device/service/iml/PadDeviceServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/smart-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-user/smart-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/classes/META-INF/smart-uaer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/classes/com/mlnx/smart/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-user/target/classes/com/mlnx/smart/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/classes/com/mlnx/smart/user/service/iml/UserServiceIml.class" beforeDir="false" afterPath="$PROJECT_DIR$/smart-service/smart-user/target/classes/com/mlnx/smart/user/service/iml/UserServiceIml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/test-classes/META-INF/smart-uaer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/test-classes/com/mlnx/smart/user/TestUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/test-classes/com/mlnx/smart/user/controller/UserControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/test-classes/com/mlnx/smart/user/dao/iml/UserDaoImlTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-service/smart-user/target/test-classes/com/mlnx/smart/user/service/iml/UserServiceImlTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/smart-zuul/target/" />
@@ -37,6 +103,8 @@
     <ignored path="$PROJECT_DIR$/smart-auth/target/" />
     <ignored path="$PROJECT_DIR$/agv-control-service/smart-authh/target/" />
     <ignored path="$PROJECT_DIR$/smart-authh/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service/smart-user/target/" />
+    <ignored path="$PROJECT_DIR$/smart-service-api/smart-user-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +129,42 @@
     <favorites_list name="smart-hospital" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smart-auth/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="n#dependencies#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="n#repositories#0;n#project#0;n#!!top" />
+                <element signature="n#build#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agv-control-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,12 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/smart-service/smart-device/src/test/java/com/mlnx/smart/device/service/iml/PadDeviceServiceTest.java" />
-        <option value="$PROJECT_DIR$/agv-control-service/pom.xml" />
-        <option value="$PROJECT_DIR$/smart-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/smart-authh/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/smart-authh/pom.xml" />
-        <option value="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/pojo/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/pom.xml" />
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/mapper/UserMapper.java" />
@@ -126,11 +223,8 @@
         <option value="$PROJECT_DIR$/smart-common/src/main/java/com/mlnx/smart/common/response/CallExceptionEnum.java" />
         <option value="$PROJECT_DIR$/smart-common/src/main/java/com/mlnx/smart/common/response/RemoteCallExceptionEnum.java" />
         <option value="$PROJECT_DIR$/smart-common/src/main/java/com/mlnx/smart/common/exception/RemoteCallException.java" />
-        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" />
         <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/exception/LoginException.java" />
-        <option value="$PROJECT_DIR$/smart-auth/pom.xml" />
         <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/SmartAppAuthorizeManager.java" />
-        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/AuthConfig.java" />
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java" />
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/UserRoleMapper.java" />
         <option value="$PROJECT_DIR$/smart-common/src/main/java/com/mlnx/smart/common/enums/ResponseEnum.java" />
@@ -150,6 +244,15 @@
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserInfoProcessIml.java" />
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/service/iml/UserServiceImlTest.java" />
         <option value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java" />
+        <option value="$PROJECT_DIR$/smart-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/AuthConfig.java" />
+        <option value="$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java" />
+        <option value="$PROJECT_DIR$/smart-auth/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -210,7 +313,7 @@
             <path>
               <item name="smart-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="smart-service" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-hospital" type="b2602c69:ProjectViewProjectNode" />
@@ -241,7 +344,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="C:\Users\Administrator\AppData\Roaming\npm\node_modules\eslint" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/smart-authh/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -261,28 +364,33 @@
       <recent name="" />
       <recent name="com.mlnx.smart.user.TestUserApplication" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\cloud\smart-hospital" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mlnx.smart.user.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-authh\src\main\resources" />
-      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service\smart-uaer\src\main\resources" />
-      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-auth\src\main\resources" />
-      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-auth\src\main\java\com\mlnx\smart\auth" />
-      <recent name="E:\workspace\idea\cloud\smart-hospital\agv-control-service\agv-client\src\main\java\com\mlnx\agv\client" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mlnx.smart.auth.config" />
       <recent name="com.mlnx.smart.user.entity" />
       <recent name="com.mlnx.smart.user.dao" />
       <recent name="com.mlnx.smart.auth.mapper" />
       <recent name="com.mlnx.smart.auth" />
-      <recent name="com.mlnx.smart.user.dao.mapper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\idea\cloud\smart-hospital" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-authh\src\main\resources" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-service\smart-uaer\src\main\resources" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-auth\src\main\resources" />
+      <recent name="E:\workspace\idea\cloud\smart-hospital\smart-auth\src\main\java\com\mlnx\smart\auth" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -293,8 +401,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.19005848" />
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceImlTest.getUserInfoVo">
+  <component name="RunManager" selected="Bash.build.sh">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -349,6 +458,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="build.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="smart-auth" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="E:\workspace\idea\cloud\smart-hospital\smart-auth" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\workspace\idea\cloud\smart-hospital\smart-auth\build.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -386,23 +508,6 @@
       <option name="PACKAGE_NAME" value="com.mlnx.smart.user.service.iml" />
       <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.service.iml.UserServiceImlTest" />
       <option name="METHOD_NAME" value="getUserInfoVo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImlTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smart-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mlnx.smart.user.service.iml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mlnx.smart.user.service.iml" />
-      <option name="MAIN_CLASS_NAME" value="com.mlnx.smart.user.service.iml.UserServiceImlTest" />
-      <option name="METHOD_NAME" value="register" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -520,7 +625,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.SmartAppAuthorizeManager" />
-      <item itemvalue="JUnit.UserServiceImlTest.register" />
       <item itemvalue="JUnit.UserServiceImlTest.findByPhone" />
       <item itemvalue="JUnit.UserServiceImlTest.getUserInfoVo" />
       <item itemvalue="Spring Boot.SpringRocketmqApplication" />
@@ -528,14 +632,15 @@
       <item itemvalue="Spring Boot.SmartDeviceApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Bash.build.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.build.sh" />
+        <item itemvalue="Spring Boot.AuthApplication" />
         <item itemvalue="JUnit.UserServiceImlTest.getUserInfoVo" />
         <item itemvalue="Application.SmartAppAuthorizeManager" />
         <item itemvalue="JUnit.UserServiceImlTest.findByPhone" />
-        <item itemvalue="JUnit.UserServiceImlTest.register" />
-        <item itemvalue="Spring Boot.AuthApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -579,6 +684,8 @@
       <workItem from="1561774555946" duration="225000" />
       <workItem from="1561774798972" duration="43804000" />
       <workItem from="1562029011296" duration="40000" />
+      <workItem from="1562029164964" duration="3560000" />
+      <workItem from="1562043571826" duration="10314000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1556606793046</created>
@@ -629,7 +736,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561988192110</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交">
+      <created>1562029368755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562029368755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -665,7 +779,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234239000" />
+    <option name="totallyTimeSpent" value="248113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,8 +792,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.2765043" />
+      <window_info active="true" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.28510028" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -694,17 +809,18 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928367" weight="0.7075209" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32729805" />
-      <window_info anchor="bottom" id="NativeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32729805" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007163" side_tool="true" weight="0.6337047" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.52785516" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.3286517" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.5626741" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32729805" />
+      <window_info anchor="bottom" x="22" y="188" width="1396" height="483" id="Run Dashboard" maximized="true" order="6" sideWeight="0.49928367" weight="0.7437326" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32729805" />
+      <window_info anchor="bottom" id="NativeScript" order="8" weight="0.3286908" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.66016716" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.59749305" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.52785516" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3286517" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.5626741" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32729805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -997,169 +1113,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/MlnxWebResponseExceptionTranslator.java" />
-    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/SmartAppAuthorizeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.0.3/mybatis-plus-annotation-3.0.3-sources.jar!/com/baomidou/mybatisplus/annotation/TableField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.0.3/mybatis-plus-annotation-3.0.3-sources.jar!/com/baomidou/mybatisplus/annotation/FieldFill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/UserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.3/mybatis-plus-core-3.0.3-sources.jar!/com/baomidou/mybatisplus/core/conditions/query/QueryWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1199">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-          <folding>
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.3/mybatis-plus-core-3.0.3-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/AuthConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/mlnx/mlnx-common/3.1/mlnx-common-3.1.jar!/com/mlnx/common/annotations/NeedLogin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-common/src/main/java/com/mlnx/smart/common/enums/ResponseEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.13.RELEASE/spring-web-5.0.13.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.13.RELEASE/spring-web-5.0.13.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageNotReadableException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/exception/UserException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/mlnx/mlnx-common/3.1/mlnx-common-3.1.jar!/com/mlnx/common/utils/MyLogFace.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1263,7 +1216,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/entity/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-user-api/src/main/java/com/mlnx/smart/user/entity/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="25" />
@@ -1277,14 +1230,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/UserInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/dao/UserInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
@@ -1294,14 +1240,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/dao/UserInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/dao/UserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/config/UserAuthorizeConfig.java">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/config/UserAuthorizeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
@@ -1319,7 +1265,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/WebExceptionHandle.java">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/controller/WebExceptionHandle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
@@ -1329,42 +1275,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/SmartUerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserRegisterForm.java">
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-user-api/src/main/java/com/mlnx/smart/user/pojo/form/UserRegisterForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/form/UserFilterForm.java">
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-user-api/src/main/java/com/mlnx/smart/user/pojo/form/UserFilterForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api/src/main/java/com/mlnx/smart/user/pojo/vo/UserInfoVo.java">
+    <entry file="file://$PROJECT_DIR$/smart-service-api/smart-user-api/src/main/java/com/mlnx/smart/user/pojo/vo/UserInfoVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="81" column="51" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserInfoProcessIml.java">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/service/iml/UserInfoProcessIml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
@@ -1374,31 +1306,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/test/java/com/mlnx/smart/user/service/iml/UserServiceImlTest.java">
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/SmartUerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/test/java/com/mlnx/smart/user/service/iml/UserServiceImlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
           <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/smart-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-service/smart-uaer/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java">
+    <entry file="file://$PROJECT_DIR$/smart-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/SmartAppAuthorizeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/error/DefaultWebResponseExceptionTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.13.RELEASE/spring-webmvc-5.0.13.RELEASE.jar!/org/springframework/web/servlet/config/annotation/CorsRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.13.RELEASE/spring-webmvc-5.0.13.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/CorsRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/authentication/AnonymousAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.12.RELEASE/spring-security-web-5.0.12.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/AuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#841#842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/src/main/java/com/mlnx/smart/auth/config/AuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-service/smart-user/src/main/java/com/mlnx/smart/user/service/iml/UserServiceIml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agv-control-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="n#repositories#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1452,7 +1549,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>smart-cloud</last-edited>
+          <last-edited>smart-auth</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

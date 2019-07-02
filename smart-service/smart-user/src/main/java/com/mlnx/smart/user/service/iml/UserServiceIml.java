@@ -66,6 +66,7 @@ public class UserServiceIml implements UserService {
     @Override
     public void modify(UserInfo userInfo) {
 
+        userInfoMapper.updateById(userInfo);
     }
 
     @Override
