@@ -7,16 +7,14 @@
     <file url="file://$PROJECT_DIR$/agv-control-service/agv-tp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/agv-control-service/agv-web-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-auth" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/smart-authh" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/smart-authh/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/smart-cloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-service-api/smart-device-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/smart-service-api/smart-uaer-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart-service-api/smart-user-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-service/smart-device" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/smart-service/smart-uaer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart-service/smart-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smart-zuul" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>

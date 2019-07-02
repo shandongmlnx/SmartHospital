@@ -6,29 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-dubbo" />
         <module name="spring-base" />
         <module name="smart-device-api" />
         <module name="agv-client" />
         <module name="agv-web-service" />
         <module name="spring-mybatis" />
         <module name="spring-rocketmq" />
-        <module name="base-netty-server" />
         <module name="spring-swagger" />
+        <module name="smart-common" />
         <module name="smart-auth" />
+        <module name="smart-user-api" />
         <module name="spring-lcn" />
         <module name="spring-mongodb" />
-        <module name="smart-uaer-api" />
         <module name="spring-cache" />
         <module name="smart-zuul" />
         <module name="mlnx-common" />
         <module name="spring-rest" />
         <module name="spring-zookeeper" />
         <module name="smart-device" />
-        <module name="smart-uaer" />
+        <module name="smart-user" />
+        <module name="base-netty-server" />
         <module name="agv-tp" />
         <module name="smart-cloud" />
-        <module name="smartcommon" />
+        <module name="spring-dubbo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
@@ -42,15 +42,15 @@
       <module name="smart-auth" target="1.8" />
       <module name="smart-authh" target="1.8" />
       <module name="smart-cloud" target="1.8" />
+      <module name="smart-common" target="1.8" />
       <module name="smart-device" target="1.8" />
       <module name="smart-device-api" target="1.8" />
       <module name="smart-hospital" target="1.8" />
       <module name="smart-service" target="1.8" />
       <module name="smart-service-api" target="1.8" />
-      <module name="smart-uaer" target="1.8" />
-      <module name="smart-uaer-api" target="1.8" />
+      <module name="smart-user" target="1.8" />
+      <module name="smart-user-api" target="1.8" />
       <module name="smart-zuul" target="1.8" />
-      <module name="smartcommon" target="1.8" />
       <module name="spring-base" target="1.8" />
       <module name="spring-cache" target="1.8" />
       <module name="spring-dubbo" target="1.8" />
