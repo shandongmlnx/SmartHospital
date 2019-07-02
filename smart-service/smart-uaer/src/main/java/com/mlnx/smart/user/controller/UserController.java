@@ -79,15 +79,7 @@ public class UserController extends BaseController {
     @GetMapping("username/{username}/")
     public Response findByName(@PathVariable("username") String username){
 
-        return result(userService.getUserInfoVoByName(username));
-    }
-
-    @NeedLogin
-    @ApiOperation(value="根据手机号获取用户", notes="")
-    @GetMapping("mobile/{mobile}/")
-    public Response findByMobile(@PathVariable("mobile") String mobile){
-
-        return result();
+        return result(userService.getUserInfoByName(username));
     }
 
     @NeedLogin

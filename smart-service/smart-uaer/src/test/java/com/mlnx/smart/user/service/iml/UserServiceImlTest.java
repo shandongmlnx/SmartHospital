@@ -3,7 +3,6 @@ package com.mlnx.smart.user.service.iml;
 import com.mlnx.common.utils.MyLog;
 import com.mlnx.smart.user.TestUserApplication;
 import com.mlnx.smart.user.entity.UserInfo;
-import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.junit.Test;
@@ -40,7 +39,7 @@ public class UserServiceImlTest extends TestUserApplication {
 
     @Test
     public void getUserInfoVo() {
-        UserInfoVo userInfoVo = userService.getUserInfoVoByName("zhang");
+        UserInfo userInfoVo = userService.getUserInfoByName("zhang");
 
         log.info(userInfoVo.toString());
     }

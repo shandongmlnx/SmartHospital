@@ -12,7 +12,6 @@ import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.entity.UserRole;
 import com.mlnx.smart.user.exception.UserException;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
-import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.apache.commons.lang3.StringUtils;
@@ -48,7 +47,7 @@ public class UserServiceIml implements UserService {
         userInfo.setPassword(passwordEncoder.encode(userInfo.getPassword()));
         userInfoMapper.insert(userInfo);
 
-        if (userInfo.getId() == null){
+        if (userInfo.getId() == null) {
             throw new UserException("用户表注册失败");
         }
 
@@ -56,7 +55,7 @@ public class UserServiceIml implements UserService {
         wrapper.eq("role_key", "normal");
         Role role = roleMapper.selectOne(wrapper);
 
-        if (role == null){
+        if (role == null) {
             throw new UserException("用户权限查询失败");
         }
 
@@ -78,13 +77,21 @@ public class UserServiceIml implements UserService {
     }
 
     @Override
-    public UserInfoVo getUserInfoVoByName(String username) {
+    public UserInfo getUserInfoByName(String username) {
 
-        return userInfoMapper.selectUserInfoVoByName(username);
+        QueryWrapper wrapper = new QueryWrapper();
+        wrapper.eq("username", username);
+
+        UserInfo userInfo = userInfoMapper.selectOne(wrapper);
+
+        if (userInfo != null) {
+            userInfo.setPassword(null);
+        }
+        return userInfo;
     }
 
 
-    private QueryWrapper queryWrapper(UserFilterForm userFilterForm){
+    private QueryWrapper queryWrapper(UserFilterForm userFilterForm) {
         QueryWrapper wrapper = new QueryWrapper();
         if (!StringUtils.isEmpty(userFilterForm.getMobile())) {
             wrapper.eq("mobile", userFilterForm.getMobile());

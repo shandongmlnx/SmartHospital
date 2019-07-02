@@ -16,7 +16,6 @@
         <module>smart-cloud</module>
         <module>agv-control-service</module>
         <module>smart-auth</module>
-        <module>smart-authh</module>
     </modules>
 
     <properties>
@@ -29,7 +28,7 @@
         <encoding>UTF-8</encoding>
 
         <shan.spring.version>3.1</shan.spring.version>
-        <shan.security.version>1.1</shan.security.version>
+        <shan.security.version>1.2</shan.security.version>
 
     </properties>
 

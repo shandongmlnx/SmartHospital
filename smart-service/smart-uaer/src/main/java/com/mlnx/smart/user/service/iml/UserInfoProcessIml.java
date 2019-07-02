@@ -1,6 +1,6 @@
 package com.mlnx.smart.user.service.iml;
 
-import com.mlnx.smart.user.pojo.vo.UserInfoVo;
+import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.apache.commons.lang3.StringUtils;
@@ -28,7 +28,7 @@ public class UserInfoProcessIml implements UserInfoProcess {
         String username = authentication.getPrincipal().toString();
 
         if (!StringUtils.isEmpty(username)) {
-            UserInfoVo userInfo = userService.getUserInfoVoByName(username);
+            UserInfo userInfo = userService.getUserInfoByName(username);
 
             httpServletRequest.setAttribute("user", userInfo);
         }
