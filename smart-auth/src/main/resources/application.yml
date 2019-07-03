@@ -5,7 +5,7 @@ logging:
   level:
     com.mlnx: debug
     com.shan: debug
-
+  file: logs/auth.log
 
 org:
   shan:

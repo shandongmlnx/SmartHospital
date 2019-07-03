@@ -2,8 +2,6 @@ package com.mlnx.smart.area.config;
 
 
 import org.shan.security.core.authorize.AuthorizeConfigProvider;
-
-
 import org.shan.security.core.exception.BadRequestAccessDeniedException;
 import org.shan.security.core.role.RbacService;
 import org.shan.security.core.role.iml.RbacServiceImpl;
@@ -15,7 +13,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.access.AccessDeniedHandlerImpl;
-
 
 import java.io.IOException;
 

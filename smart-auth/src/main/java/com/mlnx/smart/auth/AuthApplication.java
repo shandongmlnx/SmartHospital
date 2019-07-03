@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.FileNotFoundException;
+
 /**
  * Created by amanda.shan on 2019/6/3.
  */
@@ -18,12 +20,15 @@ public class AuthApplication {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+
+
         SpringApplication.run(AuthApplication.class, args);
     }
 
     @GetMapping("")
     public String test() {
+
         return "test";
     }
 

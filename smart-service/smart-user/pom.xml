@@ -19,7 +19,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>org.shan.spring</groupId>
             <artifactId>spring-mybatis</artifactId>
@@ -35,6 +34,14 @@
             <artifactId>smart-user-api</artifactId>
             <version>${parent.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.mlnx</groupId>
+            <artifactId>smart-common</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

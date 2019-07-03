@@ -34,20 +34,14 @@
         <module name="smart-area-manage-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
+    <bytecodeTargetLevel target="8">
       <module name="agv-client" target="1.8" />
       <module name="agv-control-service" target="1.8" />
       <module name="agv-tp" target="1.8" />
       <module name="agv-web-service" target="1.8" />
-      <module name="base-netty-server" target="1.8" />
-      <module name="demo" target="1.8" />
-      <module name="mlnx-common" target="1.8" />
-      <module name="smart-area" target="1.8" />
-      <module name="smart-area-api" target="1.8" />
       <module name="smart-area-manage" target="1.8" />
       <module name="smart-area-manage-api" target="1.8" />
       <module name="smart-auth" target="1.8" />
-      <module name="smart-authh" target="1.8" />
       <module name="smart-cloud" target="1.8" />
       <module name="smart-common" target="1.8" />
       <module name="smart-device" target="1.8" />
@@ -55,23 +49,26 @@
       <module name="smart-hospital" target="1.8" />
       <module name="smart-service" target="1.8" />
       <module name="smart-service-api" target="1.8" />
-      <module name="smart-service-manage" target="1.8" />
-      <module name="smart-uaer-api" target="1.8" />
       <module name="smart-user" target="1.8" />
       <module name="smart-user-api" target="1.8" />
       <module name="smart-zuul" target="1.8" />
-      <module name="smartcommon" target="1.8" />
-      <module name="spring-base" target="1.8" />
-      <module name="spring-cache" target="1.8" />
-      <module name="spring-dubbo" target="1.8" />
-      <module name="spring-lcn" target="1.8" />
-      <module name="spring-mongodb" target="1.8" />
-      <module name="spring-mybatis" target="1.8" />
-      <module name="spring-parent" target="1.8" />
-      <module name="spring-rest" target="1.8" />
-      <module name="spring-rocketmq" target="1.8" />
-      <module name="spring-swagger" target="1.8" />
-      <module name="spring-zookeeper" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="agv-client" options="-parameters" />
+      <module name="agv-tp" options="-parameters" />
+      <module name="agv-web-service" options="-parameters" />
+      <module name="smart-area-manage" options="-parameters" />
+      <module name="smart-area-manage-api" options="-parameters" />
+      <module name="smart-auth" options="-parameters" />
+      <module name="smart-cloud" options="-parameters" />
+      <module name="smart-common" options="-parameters" />
+      <module name="smart-device" options="-parameters" />
+      <module name="smart-device-api" options="-parameters" />
+      <module name="smart-user" options="-parameters" />
+      <module name="smart-user-api" options="-parameters" />
+      <module name="smart-zuul" options="-parameters" />
+    </option>
   </component>
 </project>

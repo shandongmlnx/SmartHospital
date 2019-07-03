@@ -16,7 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/smart-hospital.iml" filepath="$PROJECT_DIR$/smart-hospital.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service/smart-service.iml" filepath="$PROJECT_DIR$/smart-service/smart-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-service-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smart-service/smart-user/smart-uaer.iml" filepath="$PROJECT_DIR$/smart-service/smart-user/smart-uaer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-service/smart-user/smart-user.iml" filepath="$PROJECT_DIR$/smart-service/smart-user/smart-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" filepath="$PROJECT_DIR$/smart-service-api/smart-user-api/smart-user-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-zuul/smart-zuul.iml" filepath="$PROJECT_DIR$/smart-zuul/smart-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-common/smartcommon.iml" filepath="$PROJECT_DIR$/smart-common/smartcommon.iml" />
