@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mlnx.smart.user.dao.UserInfoMapper" >
+<mapper namespace="com.mlnx.smart.user.dao.UserInfoMapper">
 
-    
-    <sql id="userInfoVoColumns"> id, username, mobile, name, avatar, sex</sql>
+    <resultMap id="UserInfoVoMap" type="com.mlnx.smart.user.pojo.vo.UserInfoVo">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="mobile" property="mobile"/>
+        <result column="name" property="name"/>
+        <result column="avatar" property="avatar"/>
+        <result column="sex" property="sex"/>
+        <result column="work_state" property="workState"
+                typeHandler="org.shan.spring.mybatis.type_handler.CodeEnumTypeHandler"/>
+        <result column="dept_name" property="deptName"/>
+    </resultMap>
+
+    <sql id="userInfoVoColumns"> u.id, u.username, u.mobile, u.name, u.avatar, u.sex, u.work_state, u.dept_name</sql>
 
     <select id="selectUserInfoVoByName" resultType="com.mlnx.smart.user.pojo.vo.UserInfoVo">
         select
         <include refid="userInfoVoColumns"></include>
-        from t_user
+        from t_user u
         where username=#{username}
+    </select>
+
+    <select id="listUserInfoVo" resultMap="UserInfoVoMap">
+        select
+        <include refid="userInfoVoColumns"></include>
+        FROM
+            t_user u
+        INNER JOIN t_user_role ur ON u.id = ur.user_id
+        INNER JOIN t_role r ON ur.role_id = r.id
+        WHERE
+            r.role_key = 'normal'
     </select>
 
 </mapper>

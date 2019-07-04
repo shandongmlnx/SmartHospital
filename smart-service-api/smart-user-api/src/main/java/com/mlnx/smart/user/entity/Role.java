@@ -14,7 +14,7 @@ import lombok.Data;
 @TableName("t_role")
 public class Role extends BaseEntity {
 
-    private Integer roleName;
+    private String roleName;
 
-    private Integer rolekey;
+    private String roleKey;
 }

@@ -5,19 +5,18 @@ import com.mlnx.common.enums.BaseCodeEnum;
 import lombok.Getter;
 
 /**
- * Created by amanda.shan on 2019/3/26.
+ * Created by amanda.shan on 2019/7/3.
  */
 @Getter
-public enum PositionEnum implements BaseCodeEnum {
-    ADMIN("00", "管理员"),
+public enum WorkStateEnum implements BaseCodeEnum  {
 
-    DOCTOR("01", "医生"), Nurse("02", "护士");
+    ONLINE("00", "在岗"), OFFLINE("01", "离岗");
 
     private String code;
 
     private String message;
 
-    PositionEnum(String code, String message) {
+    WorkStateEnum(String code, String message) {
         this.code = code;
         this.message = message;
     }
@@ -29,7 +28,7 @@ public enum PositionEnum implements BaseCodeEnum {
 
     @Override
     public String toString() {
-        return "PositionEnum{" +
+        return "WorkStateEnum{" +
                 "code='" + code + '\'' +
                 '}';
     }

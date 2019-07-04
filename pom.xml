@@ -35,8 +35,8 @@
 
         <docker.image.prefix>smart-hospital</docker.image.prefix>
 
-        <shan.spring.version>3.1</shan.spring.version>
-        <shan.security.version>1.2</shan.security.version>
+        <shan.spring.version>3.2</shan.spring.version>
+        <shan.security.version>1.3</shan.security.version>
 
     </properties>
 

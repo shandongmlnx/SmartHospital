@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.mlnx.smart.user.enums.PositionEnum;
+import com.mlnx.smart.user.enums.WorkStateEnum;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -48,5 +49,13 @@ public class UserInfoVo {
 
     @ApiModelProperty(value = "性别")
     private String sex;
+
+    @ApiModelProperty(value = "在岗离岗")
+    @EnumValue
+    private WorkStateEnum workState;
+
+    @ApiModelProperty(value = "部门名字")
+    private String deptName;
+
 
 }

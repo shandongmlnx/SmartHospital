@@ -6,32 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-dubbo" />
-        <module name="spring-lcn" />
+        <module name="smart-service-base" />
+        <module name="agv-web-service" />
         <module name="smart-device-api" />
         <module name="smart-user-api" />
-        <module name="agv-web-service" />
-        <module name="spring-mongodb" />
-        <module name="smart-user" />
         <module name="spring-rocketmq" />
-        <module name="spring-cache" />
+        <module name="spring-mongodb" />
+        <module name="smart-auth" />
         <module name="spring-swagger" />
         <module name="smart-common" />
-        <module name="smart-auth" />
-        <module name="agv-tp" />
+        <module name="smart-user" />
+        <module name="spring-lcn" />
         <module name="agv-client" />
         <module name="smart-device" />
-        <module name="spring-base" />
+        <module name="spring-cache" />
         <module name="smart-area-manage" />
         <module name="mlnx-common" />
         <module name="spring-mybatis" />
-        <module name="spring-zookeeper" />
-        <module name="spring-rest" />
-        <module name="smart-zuul" />
-        <module name="base-netty-server" />
-        <module name="smartcommon" />
-        <module name="smart-cloud" />
+        <module name="spring-base" />
         <module name="smart-area-manage-api" />
+        <module name="spring-rest" />
+        <module name="spring-zookeeper" />
+        <module name="smart-cloud" />
+        <module name="base-netty-server" />
+        <module name="agv-tp" />
+        <module name="smartcommon" />
+        <module name="spring-dubbo" />
+        <module name="smart-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -49,6 +50,7 @@
       <module name="smart-hospital" target="1.8" />
       <module name="smart-service" target="1.8" />
       <module name="smart-service-api" target="1.8" />
+      <module name="smart-service-base" target="1.8" />
       <module name="smart-user" target="1.8" />
       <module name="smart-user-api" target="1.8" />
       <module name="smart-zuul" target="1.8" />
@@ -66,6 +68,7 @@
       <module name="smart-common" options="-parameters" />
       <module name="smart-device" options="-parameters" />
       <module name="smart-device-api" options="-parameters" />
+      <module name="smart-service-base" options="-parameters" />
       <module name="smart-user" options="-parameters" />
       <module name="smart-user-api" options="-parameters" />
       <module name="smart-zuul" options="-parameters" />

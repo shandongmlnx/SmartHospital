@@ -4,14 +4,15 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mlnx.common.form.PageForm;
+import com.mlnx.smart.service.exception.SmartServiceException;
 import com.mlnx.smart.user.dao.RoleMapper;
 import com.mlnx.smart.user.dao.UserInfoMapper;
 import com.mlnx.smart.user.dao.UserRoleMapper;
 import com.mlnx.smart.user.entity.Role;
 import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.entity.UserRole;
-import com.mlnx.smart.user.exception.UserException;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
+import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.apache.commons.lang3.StringUtils;
@@ -48,7 +49,7 @@ public class UserServiceIml implements UserService {
         userInfoMapper.insert(userInfo);
 
         if (userInfo.getId() == null) {
-            throw new UserException("用户表注册失败");
+            throw new SmartServiceException("用户表注册失败");
         }
 
         QueryWrapper wrapper = new QueryWrapper();
@@ -56,7 +57,7 @@ public class UserServiceIml implements UserService {
         Role role = roleMapper.selectOne(wrapper);
 
         if (role == null) {
-            throw new UserException("用户权限查询失败");
+            throw new SmartServiceException("用户权限查询失败");
         }
 
         UserRole userRole = new UserRole(userInfo.getId(), role.getId());
@@ -75,6 +76,13 @@ public class UserServiceIml implements UserService {
         IPage<UserInfo> userInfoIPage = userInfoMapper.selectPage(new Page<UserInfo>(pageForm.getCurrent(),
                 pageForm.getSize()), queryWrapper(userFilterForm));
         return userInfoIPage;
+    }
+
+    @Override
+    public IPage<UserInfoVo> listUserInfoVoPage(UserFilterForm userFilterForm, PageForm pageForm) {
+
+        return userInfoMapper.listUserInfoVo(new Page<UserInfoVo>(pageForm.getCurrent(),
+                pageForm.getSize()));
     }
 
     @Override

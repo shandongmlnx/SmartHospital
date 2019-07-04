@@ -16,6 +16,7 @@
         <module>smart-user</module>
         <module>smart-device</module>
         <module>smart-area-manage</module>
+        <module>smart-service-base</module>
     </modules>
 
 
@@ -50,6 +51,13 @@
             <groupId>org.shan.lib</groupId>
             <artifactId>security-core</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.mlnx</groupId>
+            <artifactId>smart-service-base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>

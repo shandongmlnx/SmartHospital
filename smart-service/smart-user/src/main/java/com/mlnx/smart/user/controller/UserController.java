@@ -7,6 +7,7 @@ import com.mlnx.common.entity.ResponseData;
 import com.mlnx.common.form.PageForm;
 import com.mlnx.smart.user.entity.UserInfo;
 import com.mlnx.smart.user.pojo.form.UserFilterForm;
+import com.mlnx.smart.user.pojo.vo.UserInfoVo;
 import com.mlnx.smart.user.service.UserService;
 
 import org.shan.spring.base.BaseController;
@@ -57,11 +58,20 @@ public class UserController extends BaseController {
     }
 
     @NeedLogin(permissions = {"User/S"})
-    @ApiOperation(value="分页获取所有用户信息", notes="")
-    @GetMapping("")
-    public ResponseData<IPage<UserInfo>> listPage(@Valid UserFilterForm userFilterForm, @Valid PageForm pageForm){
+    @ApiOperation(value="分页获取所有用户详细信息", notes="")
+    @GetMapping("/details")
+    public ResponseData<IPage<UserInfo>> listDetailPage(@Valid UserFilterForm userFilterForm, @Valid PageForm pageForm){
 
         ResponseData result = result(userService.listPage(userFilterForm, pageForm));
+        return result;
+    }
+
+    @NeedLogin(permissions = {"User/S"})
+    @ApiOperation(value="分页获取所有用户精简信息", notes="")
+    @GetMapping("/simples")
+    public ResponseData<IPage<UserInfoVo>> listSimplePage(@Valid UserFilterForm userFilterForm, @Valid PageForm pageForm){
+
+        ResponseData result = result(userService.listUserInfoVoPage(userFilterForm, pageForm));
         return result;
     }
 

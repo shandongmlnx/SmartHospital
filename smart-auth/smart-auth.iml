@@ -57,7 +57,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.0.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.0.13.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.shan.lib:security-app:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.shan.lib:security-app:1.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-oauth2:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-security:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:2.0.2.RELEASE" level="project" />
@@ -80,11 +80,11 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-jwt:1.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.56" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.56" level="project" />
-    <orderEntry type="library" name="Maven: org.shan.lib:security-core:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.shan.lib:security-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.7" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.22" level="project" />
-    <orderEntry type="library" name="Maven: org.shan.lib:security-role:1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.shan.spring:spring-mybatis:3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.shan.lib:security-role:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.shan.spring:spring-mybatis:3.2" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:2.7.9" level="project" />
@@ -104,7 +104,7 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.0.12.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.0.12.RELEASE" level="project" />
     <orderEntry type="module" module-name="smart-common" />
-    <orderEntry type="library" name="Maven: com.mlnx:mlnx-common:3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.mlnx:mlnx-common:3.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.47" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.4.2.Final" level="project" />
     <orderEntry type="library" name="Maven: io.protostuff:protostuff-core:1.4.0" level="project" />
